@@ -1,0 +1,1376 @@
+nohup: ignoring input
+Starting main.py
+htt_route_part: -1
+const.excludedRoutes: ['route72-1.json', 'route70-5.json', 'route61-4.json', 'route61-7.json']
+routes to process: {'route31.json', 'route62-5.json', 'route3.json', 'route62-11.json', 'route128.json', 'route61.json', 'route52.json', 'route62-3.json', 'route75.json', 'route47.json', 'route103.json', 'route126.json', 'route50.json', 'route107.json', 'route151.json', 'route93.json', 'route48.json', 'route88.json', 'route71.json', 'route72.json', 'route101.json', 'route7.json', 'route62-1.json', 'route89.json', 'route22.json', 'route70.json', 'route109.json', 'route61-6.json', 'route62-2.json', 'route62.json', 'route62-10.json', 'route127.json', 'route79.json', 'route13.json', 'route77.json', 'route120.json', 'route122.json', 'route64.json', 'route60-3.json', 'route4.json', 'route20.json', 'route152.json', 'route55.json', 'route33.json', 'route141.json', 'route30.json', 'route78.json', 'route150.json', 'route2.json', 'route16.json', 'route61-3.json', 'route123.json', 'route62-9.json', 'route148.json', 'route62-8.json', 'route10.json', 'routeD3.json', 'route60-2.json', 'route53.json', 'route38.json', 'route140.json', 'route32.json', 'route18.json', 'route61-8.json', 'route62-7.json', 'route76.json', 'route65.json', 'route59.json', 'route17.json', 'route8.json', 'route104.json', 'route41.json', 'route25.json', 'route5.json', 'route28.json', 'route68.json', 'route60-4.json', 'route110.json', 'route11.json', 'route19.json', 'route100.json', 'route91.json', 'route139.json', 'route39.json', 'route1.json', 'route36.json', 'route6.json', 'route60-1.json', 'route63.json', 'route86.json', 'route70-1.json', 'route102.json', 'route34.json', 'route61-1.json', 'route73.json', 'route29.json', 'routeD1.json', 'route62-6.json', 'route44.json', 'route58.json', 'route124.json', 'route74.json', 'route69.json', 'route27.json', 'route24.json', 'route46.json', 'route87.json', 'route94.json', 'routeD2.json', 'route84.json', 'route144.json', 'route145.json', 'route9.json', 'route56.json', 'route81.json', 'route146.json', 'route23.json', 'route15.json', 'route85.json', 'route99.json', 'route43.json', 'route70-3.json', 'route90.json', 'route57.json', 'route14.json', 'route70-2.json', 'route45.json'}
+start_time1: 2025-11-12 14:25:08 cpu_count() 50
+unpickling G and dfRoutes completed
+Time taken1: 1.9042332172393799 seconds; 2025-11-12 14:25:10; cpu_count() 50 => CONSTRUCTS GRAPH IN L-SPACE AND DFROUTES
+start_time2: 2025-11-12 14:25:10 cpu_count() 50
+shortHops completed
+shortDist completed
+shortTime completed
+finished dfShortHopsValue and dfShortHopsPath
+finished dfShortDistValue and dfShortDistPath
+finished dfShortTimeValue and dfShortTimePath
+complete pathStr for dfShortHops
+complete pathStr for dfShortDist
+complete pathStr for dfShortTime
+shortest paths calculated
+100 stations completed
+200 stations completed
+300 stations completed
+400 stations completed
+500 stations completed
+600 stations completed
+700 stations completed
+800 stations completed
+900 stations completed
+1000 stations completed
+1100 stations completed
+1200 stations completed
+1300 stations completed
+1400 stations completed
+1500 stations completed
+1600 stations completed
+1700 stations completed
+1800 stations completed
+1900 stations completed
+2000 stations completed
+2100 stations completed
+2200 stations completed
+2300 stations completed
+2400 stations completed
+2500 stations completed
+2600 stations completed
+2700 stations completed
+2800 stations completed
+2900 stations completed
+3000 stations completed
+3100 stations completed
+3200 stations completed
+3300 stations completed
+3400 stations completed
+3500 stations completed
+3600 stations completed
+3700 stations completed
+3800 stations completed
+3900 stations completed
+4000 stations completed
+4100 stations completed
+4200 stations completed
+4300 stations completed
+proximity density calculated and written to pickle files
+assignProxDensityToG completed
+calcBetwCentralMultip part 0 started, 2175 stops (out of 4350 stops)
+2025-11-12 18:56:40 part 0 => fork | RSS=50901.6 MiB | USS=4.2 MiB | PSS=24924.0 MiB | Shared=3.5 MiB | vm_total=128798.6 MiB | vm_used=53085.5 MiB | vm_free=48541.3 MiB | vm_percent=42.2 % | swap_total=8192.0 MiB | swap_used=0.0 MiB | swap_free=8192.0 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+calcBetwCentralMultip part 1 started, 2175 stops (out of 4350 stops)
+2025-11-12 18:56:41 part 1 => fork | RSS=50901.6 MiB | USS=3.9 MiB | PSS=16971.1 MiB | Shared=3.5 MiB | vm_total=128798.6 MiB | vm_used=53118.3 MiB | vm_free=48508.4 MiB | vm_percent=42.2 % | swap_total=8192.0 MiB | swap_used=0.0 MiB | swap_free=8192.0 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 10 stations completed (out of 2175 stops)
+part 0, 10 stations completed (out of 2175 stops)
+2025-11-12 19:58:20 part 1 => fork | RSS=61946.7 MiB | USS=30599.7 MiB | PSS=41050.8 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114166.8 MiB | vm_free=1210.4 MiB | vm_percent=89.6 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+2025-11-12 19:58:21 part 0 => fork | RSS=61946.6 MiB | USS=30549.0 MiB | PSS=41025.5 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114166.8 MiB | vm_free=1210.4 MiB | vm_percent=89.6 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 20 stations completed (out of 2175 stops)
+2025-11-12 20:06:47 part 1 => fork | RSS=61946.7 MiB | USS=30622.9 MiB | PSS=41067.2 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114444.1 MiB | vm_free=933.1 MiB | vm_percent=89.8 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 20 stations completed (out of 2175 stops)
+2025-11-12 20:06:49 part 0 => fork | RSS=61946.2 MiB | USS=30611.2 MiB | PSS=41061.3 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114444.1 MiB | vm_free=933.1 MiB | vm_percent=89.8 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 30 stations completed (out of 2175 stops)
+2025-11-12 20:15:12 part 1 => fork | RSS=61946.7 MiB | USS=30811.0 MiB | PSS=41192.0 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114649.9 MiB | vm_free=1095.8 MiB | vm_percent=90.0 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 30 stations completed (out of 2175 stops)
+2025-11-12 20:15:23 part 0 => fork | RSS=61945.6 MiB | USS=30701.2 MiB | PSS=41137.1 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114671.9 MiB | vm_free=1073.8 MiB | vm_percent=90.0 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 40 stations completed (out of 2175 stops)
+2025-11-12 20:23:40 part 1 => fork | RSS=61946.7 MiB | USS=30812.3 MiB | PSS=41197.7 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114715.4 MiB | vm_free=1030.2 MiB | vm_percent=90.0 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 40 stations completed (out of 2175 stops)
+2025-11-12 20:23:57 part 0 => fork | RSS=61945.6 MiB | USS=30742.7 MiB | PSS=41162.9 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114771.8 MiB | vm_free=973.8 MiB | vm_percent=90.1 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 50 stations completed (out of 2175 stops)
+2025-11-12 20:32:09 part 1 => fork | RSS=61946.7 MiB | USS=30824.2 MiB | PSS=41203.8 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114746.7 MiB | vm_free=998.7 MiB | vm_percent=90.0 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 50 stations completed (out of 2175 stops)
+2025-11-12 20:32:29 part 0 => fork | RSS=61945.0 MiB | USS=30744.4 MiB | PSS=41163.9 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114719.2 MiB | vm_free=1026.2 MiB | vm_percent=90.0 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 60 stations completed (out of 2175 stops)
+2025-11-12 20:40:37 part 1 => fork | RSS=61946.7 MiB | USS=30825.4 MiB | PSS=41204.5 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114839.9 MiB | vm_free=905.0 MiB | vm_percent=90.1 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 60 stations completed (out of 2175 stops)
+2025-11-12 20:41:02 part 0 => fork | RSS=61945.0 MiB | USS=30745.0 MiB | PSS=41164.4 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114725.3 MiB | vm_free=1019.5 MiB | vm_percent=90.0 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 70 stations completed (out of 2175 stops)
+2025-11-12 20:49:07 part 1 => fork | RSS=61946.7 MiB | USS=30827.3 MiB | PSS=41205.6 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114757.2 MiB | vm_free=987.5 MiB | vm_percent=90.1 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 70 stations completed (out of 2175 stops)
+2025-11-12 20:49:36 part 0 => fork | RSS=61945.0 MiB | USS=30745.5 MiB | PSS=41164.7 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114776.6 MiB | vm_free=968.2 MiB | vm_percent=90.1 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 80 stations completed (out of 2175 stops)
+2025-11-12 20:57:31 part 1 => fork | RSS=61946.7 MiB | USS=30828.6 MiB | PSS=41206.4 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114636.0 MiB | vm_free=1108.6 MiB | vm_percent=90.0 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 80 stations completed (out of 2175 stops)
+2025-11-12 20:58:04 part 0 => fork | RSS=61945.0 MiB | USS=30745.9 MiB | PSS=41165.0 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114791.5 MiB | vm_free=953.1 MiB | vm_percent=90.1 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 90 stations completed (out of 2175 stops)
+2025-11-12 21:05:54 part 1 => fork | RSS=61946.0 MiB | USS=30848.4 MiB | PSS=41216.3 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114826.9 MiB | vm_free=917.6 MiB | vm_percent=90.1 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 90 stations completed (out of 2175 stops)
+2025-11-12 21:06:33 part 0 => fork | RSS=61945.0 MiB | USS=30764.1 MiB | PSS=41174.2 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114835.9 MiB | vm_free=908.6 MiB | vm_percent=90.1 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 100 stations completed (out of 2175 stops)
+2025-11-12 21:14:26 part 1 => fork | RSS=61946.0 MiB | USS=30849.0 MiB | PSS=41216.8 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114806.8 MiB | vm_free=937.6 MiB | vm_percent=90.1 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 100 stations completed (out of 2175 stops)
+2025-11-12 21:14:59 part 0 => fork | RSS=61945.0 MiB | USS=30821.6 MiB | PSS=41203.1 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114805.3 MiB | vm_free=939.1 MiB | vm_percent=90.1 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 110 stations completed (out of 2175 stops)
+2025-11-12 21:22:59 part 1 => fork | RSS=61957.5 MiB | USS=30884.9 MiB | PSS=41244.8 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114838.7 MiB | vm_free=905.5 MiB | vm_percent=90.1 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 110 stations completed (out of 2175 stops)
+2025-11-12 21:23:28 part 0 => fork | RSS=61945.0 MiB | USS=30823.6 MiB | PSS=41208.1 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114838.1 MiB | vm_free=906.0 MiB | vm_percent=90.1 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 120 stations completed (out of 2175 stops)
+2025-11-12 21:31:29 part 1 => fork | RSS=61957.5 MiB | USS=30885.1 MiB | PSS=41244.9 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114801.6 MiB | vm_free=954.6 MiB | vm_percent=90.1 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 120 stations completed (out of 2175 stops)
+2025-11-12 21:31:58 part 0 => fork | RSS=61945.0 MiB | USS=30823.7 MiB | PSS=41208.3 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114802.1 MiB | vm_free=954.1 MiB | vm_percent=90.1 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 130 stations completed (out of 2175 stops)
+2025-11-12 21:39:54 part 1 => fork | RSS=61957.5 MiB | USS=30894.9 MiB | PSS=41249.8 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114819.2 MiB | vm_free=936.9 MiB | vm_percent=90.1 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 130 stations completed (out of 2175 stops)
+2025-11-12 21:40:33 part 0 => fork | RSS=61945.0 MiB | USS=30824.5 MiB | PSS=41208.7 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114820.0 MiB | vm_free=936.1 MiB | vm_percent=90.1 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 140 stations completed (out of 2175 stops)
+2025-11-12 21:48:25 part 1 => fork | RSS=61957.1 MiB | USS=30895.2 MiB | PSS=41250.0 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114826.9 MiB | vm_free=929.1 MiB | vm_percent=90.1 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 140 stations completed (out of 2175 stops)
+2025-11-12 21:49:09 part 0 => fork | RSS=61945.0 MiB | USS=30824.6 MiB | PSS=41208.8 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114826.9 MiB | vm_free=929.0 MiB | vm_percent=90.1 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 150 stations completed (out of 2175 stops)
+2025-11-12 21:56:53 part 1 => fork | RSS=61957.1 MiB | USS=30895.4 MiB | PSS=41250.1 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114831.5 MiB | vm_free=924.3 MiB | vm_percent=90.1 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 150 stations completed (out of 2175 stops)
+2025-11-12 21:57:38 part 0 => fork | RSS=61945.0 MiB | USS=30826.1 MiB | PSS=41209.5 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114840.2 MiB | vm_free=915.6 MiB | vm_percent=90.1 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 160 stations completed (out of 2175 stops)
+2025-11-12 22:05:17 part 1 => fork | RSS=61957.1 MiB | USS=30895.5 MiB | PSS=41250.2 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114837.8 MiB | vm_free=917.9 MiB | vm_percent=90.1 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 160 stations completed (out of 2175 stops)
+2025-11-12 22:06:05 part 0 => fork | RSS=61945.0 MiB | USS=30826.8 MiB | PSS=41209.9 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114840.0 MiB | vm_free=915.7 MiB | vm_percent=90.1 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 170 stations completed (out of 2175 stops)
+2025-11-12 22:13:47 part 1 => fork | RSS=61956.8 MiB | USS=30896.5 MiB | PSS=41252.2 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114887.8 MiB | vm_free=867.8 MiB | vm_percent=90.2 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 170 stations completed (out of 2175 stops)
+2025-11-12 22:14:34 part 0 => fork | RSS=61945.0 MiB | USS=30865.5 MiB | PSS=41230.8 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114888.3 MiB | vm_free=867.3 MiB | vm_percent=90.2 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 180 stations completed (out of 2175 stops)
+2025-11-12 22:22:18 part 1 => fork | RSS=61956.7 MiB | USS=30896.9 MiB | PSS=41252.5 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114890.4 MiB | vm_free=876.9 MiB | vm_percent=90.2 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 180 stations completed (out of 2175 stops)
+2025-11-12 22:23:02 part 0 => fork | RSS=61945.0 MiB | USS=30865.5 MiB | PSS=41230.9 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114891.3 MiB | vm_free=876.0 MiB | vm_percent=90.2 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 190 stations completed (out of 2175 stops)
+2025-11-12 22:30:45 part 1 => fork | RSS=61956.7 MiB | USS=30898.8 MiB | PSS=41253.9 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114903.7 MiB | vm_free=876.4 MiB | vm_percent=90.2 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 190 stations completed (out of 2175 stops)
+2025-11-12 22:31:26 part 0 => fork | RSS=61945.0 MiB | USS=30870.3 MiB | PSS=41233.7 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114896.2 MiB | vm_free=884.0 MiB | vm_percent=90.2 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 200 stations completed (out of 2175 stops)
+2025-11-12 22:39:12 part 1 => fork | RSS=61956.7 MiB | USS=30901.0 MiB | PSS=41255.5 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114939.7 MiB | vm_free=868.2 MiB | vm_percent=90.2 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 200 stations completed (out of 2175 stops)
+2025-11-12 22:39:58 part 0 => fork | RSS=61956.0 MiB | USS=30904.4 MiB | PSS=41257.1 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114933.2 MiB | vm_free=874.6 MiB | vm_percent=90.2 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 210 stations completed (out of 2175 stops)
+2025-11-12 22:47:36 part 1 => fork | RSS=61956.6 MiB | USS=30901.1 MiB | PSS=41255.5 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114934.6 MiB | vm_free=874.0 MiB | vm_percent=90.2 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 210 stations completed (out of 2175 stops)
+2025-11-12 22:48:28 part 0 => fork | RSS=61956.0 MiB | USS=30904.5 MiB | PSS=41257.1 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114812.6 MiB | vm_free=996.0 MiB | vm_percent=90.1 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 220 stations completed (out of 2175 stops)
+2025-11-12 22:56:01 part 1 => fork | RSS=61956.2 MiB | USS=30901.1 MiB | PSS=41255.5 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114933.1 MiB | vm_free=875.4 MiB | vm_percent=90.2 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 220 stations completed (out of 2175 stops)
+2025-11-12 22:56:57 part 0 => fork | RSS=61956.0 MiB | USS=30904.6 MiB | PSS=41257.2 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114933.7 MiB | vm_free=874.8 MiB | vm_percent=90.2 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 230 stations completed (out of 2175 stops)
+2025-11-12 23:04:27 part 1 => fork | RSS=61956.2 MiB | USS=30901.2 MiB | PSS=41255.6 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114939.5 MiB | vm_free=868.8 MiB | vm_percent=90.2 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 230 stations completed (out of 2175 stops)
+2025-11-12 23:05:27 part 0 => fork | RSS=61956.0 MiB | USS=30905.3 MiB | PSS=41257.5 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114941.3 MiB | vm_free=866.9 MiB | vm_percent=90.2 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 240 stations completed (out of 2175 stops)
+2025-11-12 23:12:53 part 1 => fork | RSS=61956.2 MiB | USS=30901.2 MiB | PSS=41255.6 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114902.0 MiB | vm_free=954.7 MiB | vm_percent=90.2 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 240 stations completed (out of 2175 stops)
+2025-11-12 23:13:55 part 0 => fork | RSS=61956.0 MiB | USS=30905.4 MiB | PSS=41257.6 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114908.9 MiB | vm_free=948.5 MiB | vm_percent=90.2 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 250 stations completed (out of 2175 stops)
+2025-11-12 23:21:19 part 1 => fork | RSS=61956.2 MiB | USS=30901.4 MiB | PSS=41255.7 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114910.0 MiB | vm_free=947.3 MiB | vm_percent=90.2 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 250 stations completed (out of 2175 stops)
+2025-11-12 23:22:21 part 0 => fork | RSS=61956.0 MiB | USS=30905.5 MiB | PSS=41257.7 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114910.0 MiB | vm_free=947.3 MiB | vm_percent=90.2 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 260 stations completed (out of 2175 stops)
+2025-11-12 23:29:43 part 1 => fork | RSS=61956.2 MiB | USS=30901.7 MiB | PSS=41255.9 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114910.8 MiB | vm_free=946.5 MiB | vm_percent=90.2 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 260 stations completed (out of 2175 stops)
+2025-11-12 23:30:48 part 0 => fork | RSS=61956.0 MiB | USS=30906.8 MiB | PSS=41258.4 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114910.6 MiB | vm_free=946.6 MiB | vm_percent=90.2 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 270 stations completed (out of 2175 stops)
+2025-11-12 23:38:10 part 1 => fork | RSS=61956.2 MiB | USS=30901.7 MiB | PSS=41255.9 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114912.1 MiB | vm_free=945.0 MiB | vm_percent=90.2 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 270 stations completed (out of 2175 stops)
+2025-11-12 23:39:19 part 0 => fork | RSS=61956.0 MiB | USS=30907.5 MiB | PSS=41258.7 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114910.1 MiB | vm_free=947.0 MiB | vm_percent=90.2 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 280 stations completed (out of 2175 stops)
+2025-11-12 23:46:35 part 1 => fork | RSS=61956.2 MiB | USS=30901.8 MiB | PSS=41256.0 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114911.0 MiB | vm_free=945.9 MiB | vm_percent=90.2 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 280 stations completed (out of 2175 stops)
+2025-11-12 23:47:54 part 0 => fork | RSS=61956.0 MiB | USS=30907.5 MiB | PSS=41258.7 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114911.0 MiB | vm_free=945.9 MiB | vm_percent=90.2 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 290 stations completed (out of 2175 stops)
+2025-11-12 23:55:00 part 1 => fork | RSS=61956.6 MiB | USS=30901.8 MiB | PSS=41256.0 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114919.9 MiB | vm_free=937.0 MiB | vm_percent=90.2 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 290 stations completed (out of 2175 stops)
+2025-11-12 23:56:26 part 0 => fork | RSS=61956.0 MiB | USS=30907.5 MiB | PSS=41258.8 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114944.6 MiB | vm_free=912.3 MiB | vm_percent=90.2 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 300 stations completed (out of 2175 stops)
+2025-11-13 00:03:25 part 1 => fork | RSS=61956.2 MiB | USS=30912.5 MiB | PSS=41263.1 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114958.3 MiB | vm_free=896.0 MiB | vm_percent=90.2 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 300 stations completed (out of 2175 stops)
+2025-11-13 00:04:54 part 0 => fork | RSS=61956.0 MiB | USS=30907.8 MiB | PSS=41260.6 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114958.3 MiB | vm_free=896.0 MiB | vm_percent=90.2 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 310 stations completed (out of 2175 stops)
+2025-11-13 00:11:48 part 1 => fork | RSS=61956.2 MiB | USS=30912.5 MiB | PSS=41263.1 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114963.1 MiB | vm_free=887.7 MiB | vm_percent=90.2 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 310 stations completed (out of 2175 stops)
+2025-11-13 00:13:21 part 0 => fork | RSS=61956.0 MiB | USS=30919.2 MiB | PSS=41266.5 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114972.5 MiB | vm_free=878.3 MiB | vm_percent=90.2 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 320 stations completed (out of 2175 stops)
+2025-11-13 00:20:12 part 1 => fork | RSS=61956.2 MiB | USS=30912.5 MiB | PSS=41263.2 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114974.0 MiB | vm_free=876.6 MiB | vm_percent=90.2 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 320 stations completed (out of 2175 stops)
+2025-11-13 00:21:47 part 0 => fork | RSS=61956.0 MiB | USS=30919.5 MiB | PSS=41266.7 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114972.0 MiB | vm_free=878.6 MiB | vm_percent=90.2 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 330 stations completed (out of 2175 stops)
+2025-11-13 00:28:37 part 1 => fork | RSS=61956.2 MiB | USS=30922.5 MiB | PSS=41268.3 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114929.3 MiB | vm_free=944.9 MiB | vm_percent=90.2 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 330 stations completed (out of 2175 stops)
+2025-11-13 00:30:16 part 0 => fork | RSS=61956.0 MiB | USS=30919.6 MiB | PSS=41266.7 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114938.2 MiB | vm_free=936.9 MiB | vm_percent=90.2 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 340 stations completed (out of 2175 stops)
+2025-11-13 00:37:07 part 1 => fork | RSS=61956.2 MiB | USS=30922.5 MiB | PSS=41268.3 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114940.9 MiB | vm_free=934.2 MiB | vm_percent=90.2 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 340 stations completed (out of 2175 stops)
+2025-11-13 00:38:44 part 0 => fork | RSS=61956.0 MiB | USS=30919.6 MiB | PSS=41266.7 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114940.9 MiB | vm_free=934.2 MiB | vm_percent=90.2 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 350 stations completed (out of 2175 stops)
+2025-11-13 00:45:41 part 1 => fork | RSS=61956.2 MiB | USS=30922.5 MiB | PSS=41268.3 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114946.5 MiB | vm_free=928.4 MiB | vm_percent=90.2 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 350 stations completed (out of 2175 stops)
+2025-11-13 00:47:15 part 0 => fork | RSS=61955.3 MiB | USS=30919.6 MiB | PSS=41266.7 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114948.5 MiB | vm_free=926.4 MiB | vm_percent=90.2 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 360 stations completed (out of 2175 stops)
+2025-11-13 00:54:06 part 1 => fork | RSS=61956.2 MiB | USS=30922.6 MiB | PSS=41268.3 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114946.6 MiB | vm_free=928.2 MiB | vm_percent=90.2 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 360 stations completed (out of 2175 stops)
+2025-11-13 00:55:45 part 0 => fork | RSS=61955.3 MiB | USS=30919.9 MiB | PSS=41266.9 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114947.8 MiB | vm_free=926.9 MiB | vm_percent=90.2 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 370 stations completed (out of 2175 stops)
+2025-11-13 01:02:34 part 1 => fork | RSS=61956.2 MiB | USS=30922.6 MiB | PSS=41268.3 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114945.6 MiB | vm_free=929.2 MiB | vm_percent=90.2 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 370 stations completed (out of 2175 stops)
+2025-11-13 01:04:12 part 0 => fork | RSS=61955.3 MiB | USS=30919.9 MiB | PSS=41266.9 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114945.8 MiB | vm_free=928.9 MiB | vm_percent=90.2 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 380 stations completed (out of 2175 stops)
+2025-11-13 01:11:05 part 1 => fork | RSS=61956.2 MiB | USS=30925.3 MiB | PSS=41270.0 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114950.6 MiB | vm_free=924.0 MiB | vm_percent=90.2 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 380 stations completed (out of 2175 stops)
+2025-11-13 01:12:40 part 0 => fork | RSS=61955.3 MiB | USS=30919.9 MiB | PSS=41267.3 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114950.6 MiB | vm_free=924.0 MiB | vm_percent=90.2 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 390 stations completed (out of 2175 stops)
+2025-11-13 01:19:31 part 1 => fork | RSS=61956.2 MiB | USS=30925.3 MiB | PSS=41270.0 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114957.9 MiB | vm_free=916.5 MiB | vm_percent=90.2 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 390 stations completed (out of 2175 stops)
+2025-11-13 01:21:07 part 0 => fork | RSS=61955.3 MiB | USS=30920.0 MiB | PSS=41267.3 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114959.7 MiB | vm_free=914.8 MiB | vm_percent=90.2 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 400 stations completed (out of 2175 stops)
+2025-11-13 01:27:56 part 1 => fork | RSS=61955.9 MiB | USS=30925.5 MiB | PSS=41270.1 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114855.3 MiB | vm_free=1019.1 MiB | vm_percent=90.1 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 400 stations completed (out of 2175 stops)
+2025-11-13 01:29:38 part 0 => fork | RSS=61954.6 MiB | USS=30920.0 MiB | PSS=41267.3 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114836.5 MiB | vm_free=1037.9 MiB | vm_percent=90.1 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 410 stations completed (out of 2175 stops)
+2025-11-13 01:36:25 part 1 => fork | RSS=61955.9 MiB | USS=30925.5 MiB | PSS=41270.1 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114976.2 MiB | vm_free=897.7 MiB | vm_percent=90.2 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 410 stations completed (out of 2175 stops)
+2025-11-13 01:38:10 part 0 => fork | RSS=61954.6 MiB | USS=30920.0 MiB | PSS=41267.3 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114970.3 MiB | vm_free=903.7 MiB | vm_percent=90.2 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 420 stations completed (out of 2175 stops)
+2025-11-13 01:44:50 part 1 => fork | RSS=61955.9 MiB | USS=30925.5 MiB | PSS=41270.1 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114969.0 MiB | vm_free=904.8 MiB | vm_percent=90.2 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 420 stations completed (out of 2175 stops)
+2025-11-13 01:46:34 part 0 => fork | RSS=61954.6 MiB | USS=30920.0 MiB | PSS=41267.3 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114973.4 MiB | vm_free=897.7 MiB | vm_percent=90.2 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 430 stations completed (out of 2175 stops)
+2025-11-13 01:53:23 part 1 => fork | RSS=61955.9 MiB | USS=30925.7 MiB | PSS=41270.3 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114843.2 MiB | vm_free=1027.8 MiB | vm_percent=90.1 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 430 stations completed (out of 2175 stops)
+2025-11-13 01:55:04 part 0 => fork | RSS=61954.6 MiB | USS=30920.0 MiB | PSS=41267.3 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114842.7 MiB | vm_free=1028.4 MiB | vm_percent=90.1 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 440 stations completed (out of 2175 stops)
+2025-11-13 02:01:49 part 1 => fork | RSS=61955.9 MiB | USS=30925.8 MiB | PSS=41270.3 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114975.4 MiB | vm_free=895.6 MiB | vm_percent=90.2 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 440 stations completed (out of 2175 stops)
+2025-11-13 02:03:34 part 0 => fork | RSS=61954.6 MiB | USS=30920.0 MiB | PSS=41267.3 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114974.6 MiB | vm_free=896.4 MiB | vm_percent=90.2 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 450 stations completed (out of 2175 stops)
+2025-11-13 02:10:17 part 1 => fork | RSS=61955.9 MiB | USS=30925.8 MiB | PSS=41270.3 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114977.7 MiB | vm_free=897.3 MiB | vm_percent=90.2 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 450 stations completed (out of 2175 stops)
+2025-11-13 02:12:01 part 0 => fork | RSS=61954.6 MiB | USS=30920.0 MiB | PSS=41267.3 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114901.9 MiB | vm_free=973.2 MiB | vm_percent=90.2 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 460 stations completed (out of 2175 stops)
+2025-11-13 02:18:48 part 1 => fork | RSS=61955.9 MiB | USS=30925.8 MiB | PSS=41270.3 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114970.6 MiB | vm_free=904.3 MiB | vm_percent=90.2 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 460 stations completed (out of 2175 stops)
+2025-11-13 02:20:36 part 0 => fork | RSS=61954.6 MiB | USS=30920.0 MiB | PSS=41267.3 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114969.6 MiB | vm_free=905.2 MiB | vm_percent=90.2 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 470 stations completed (out of 2175 stops)
+2025-11-13 02:27:23 part 1 => fork | RSS=61955.9 MiB | USS=30925.9 MiB | PSS=41270.3 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114978.1 MiB | vm_free=896.6 MiB | vm_percent=90.2 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 470 stations completed (out of 2175 stops)
+2025-11-13 02:29:08 part 0 => fork | RSS=61954.6 MiB | USS=30920.1 MiB | PSS=41267.3 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114976.7 MiB | vm_free=898.1 MiB | vm_percent=90.2 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 480 stations completed (out of 2175 stops)
+2025-11-13 02:35:48 part 1 => fork | RSS=61955.1 MiB | USS=30926.0 MiB | PSS=41270.4 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115189.6 MiB | vm_free=1000.1 MiB | vm_percent=90.4 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 480 stations completed (out of 2175 stops)
+2025-11-13 02:37:39 part 0 => fork | RSS=61955.0 MiB | USS=30920.2 MiB | PSS=41267.4 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115199.2 MiB | vm_free=990.5 MiB | vm_percent=90.4 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 490 stations completed (out of 2175 stops)
+2025-11-13 02:44:14 part 1 => fork | RSS=61955.1 MiB | USS=30926.0 MiB | PSS=41270.4 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115204.3 MiB | vm_free=985.4 MiB | vm_percent=90.4 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 490 stations completed (out of 2175 stops)
+2025-11-13 02:46:11 part 0 => fork | RSS=61955.0 MiB | USS=30920.2 MiB | PSS=41267.4 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115223.5 MiB | vm_free=966.2 MiB | vm_percent=90.4 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 500 stations completed (out of 2175 stops)
+2025-11-13 02:52:38 part 1 => fork | RSS=61938.6 MiB | USS=30910.8 MiB | PSS=41254.7 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115102.9 MiB | vm_free=1086.6 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 500 stations completed (out of 2175 stops)
+2025-11-13 02:54:39 part 0 => fork | RSS=61955.0 MiB | USS=30920.3 MiB | PSS=41267.6 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115151.1 MiB | vm_free=1038.4 MiB | vm_percent=90.4 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 510 stations completed (out of 2175 stops)
+2025-11-13 03:01:03 part 1 => fork | RSS=61938.6 MiB | USS=30910.8 MiB | PSS=41254.7 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115168.0 MiB | vm_free=1021.4 MiB | vm_percent=90.4 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 510 stations completed (out of 2175 stops)
+2025-11-13 03:03:12 part 0 => fork | RSS=61954.6 MiB | USS=30920.3 MiB | PSS=41267.6 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115101.5 MiB | vm_free=1087.8 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 520 stations completed (out of 2175 stops)
+2025-11-13 03:09:34 part 1 => fork | RSS=61938.6 MiB | USS=30910.8 MiB | PSS=41254.7 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115108.1 MiB | vm_free=1081.2 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 520 stations completed (out of 2175 stops)
+2025-11-13 03:11:43 part 0 => fork | RSS=61954.6 MiB | USS=30921.6 MiB | PSS=41268.3 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115156.2 MiB | vm_free=1033.0 MiB | vm_percent=90.4 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 530 stations completed (out of 2175 stops)
+2025-11-13 03:18:05 part 1 => fork | RSS=61938.6 MiB | USS=30910.8 MiB | PSS=41254.7 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115154.6 MiB | vm_free=1034.6 MiB | vm_percent=90.4 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 530 stations completed (out of 2175 stops)
+2025-11-13 03:20:18 part 0 => fork | RSS=61954.6 MiB | USS=30921.6 MiB | PSS=41268.3 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115511.0 MiB | vm_free=1309.6 MiB | vm_percent=90.6 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 540 stations completed (out of 2175 stops)
+2025-11-13 03:26:35 part 1 => fork | RSS=61937.6 MiB | USS=30910.8 MiB | PSS=41254.7 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115415.2 MiB | vm_free=1403.9 MiB | vm_percent=90.6 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 540 stations completed (out of 2175 stops)
+2025-11-13 03:28:51 part 0 => fork | RSS=61954.2 MiB | USS=30923.3 MiB | PSS=41269.1 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115545.0 MiB | vm_free=1274.0 MiB | vm_percent=90.7 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 550 stations completed (out of 2175 stops)
+2025-11-13 03:35:02 part 1 => fork | RSS=61937.6 MiB | USS=30910.8 MiB | PSS=41254.7 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115397.1 MiB | vm_free=1421.2 MiB | vm_percent=90.5 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 550 stations completed (out of 2175 stops)
+2025-11-13 03:37:20 part 0 => fork | RSS=61953.9 MiB | USS=30923.3 MiB | PSS=41269.1 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115527.0 MiB | vm_free=1291.3 MiB | vm_percent=90.7 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 560 stations completed (out of 2175 stops)
+2025-11-13 03:43:29 part 1 => fork | RSS=61937.6 MiB | USS=30910.8 MiB | PSS=41254.7 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115522.4 MiB | vm_free=1295.4 MiB | vm_percent=90.6 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 560 stations completed (out of 2175 stops)
+2025-11-13 03:45:50 part 0 => fork | RSS=61953.5 MiB | USS=30923.3 MiB | PSS=41269.1 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115548.4 MiB | vm_free=1269.0 MiB | vm_percent=90.7 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 570 stations completed (out of 2175 stops)
+2025-11-13 03:51:57 part 1 => fork | RSS=61937.6 MiB | USS=30910.8 MiB | PSS=41254.7 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115557.7 MiB | vm_free=1259.1 MiB | vm_percent=90.7 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 570 stations completed (out of 2175 stops)
+2025-11-13 03:54:19 part 0 => fork | RSS=61953.5 MiB | USS=30923.3 MiB | PSS=41269.1 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115529.2 MiB | vm_free=1287.3 MiB | vm_percent=90.7 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 580 stations completed (out of 2175 stops)
+2025-11-13 04:00:26 part 1 => fork | RSS=61937.6 MiB | USS=30910.8 MiB | PSS=41254.7 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115540.2 MiB | vm_free=1275.8 MiB | vm_percent=90.7 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 580 stations completed (out of 2175 stops)
+2025-11-13 04:02:52 part 0 => fork | RSS=61953.5 MiB | USS=30924.2 MiB | PSS=41269.6 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115593.6 MiB | vm_free=1222.4 MiB | vm_percent=90.7 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 590 stations completed (out of 2175 stops)
+2025-11-13 04:08:50 part 1 => fork | RSS=61937.6 MiB | USS=30910.8 MiB | PSS=41254.7 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115420.9 MiB | vm_free=1394.4 MiB | vm_percent=90.6 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 590 stations completed (out of 2175 stops)
+2025-11-13 04:11:23 part 0 => fork | RSS=61937.2 MiB | USS=30908.0 MiB | PSS=41253.3 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115536.2 MiB | vm_free=1278.8 MiB | vm_percent=90.7 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 600 stations completed (out of 2175 stops)
+2025-11-13 04:17:11 part 1 => fork | RSS=61937.6 MiB | USS=30910.8 MiB | PSS=41254.7 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115562.8 MiB | vm_free=1251.8 MiB | vm_percent=90.7 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 600 stations completed (out of 2175 stops)
+2025-11-13 04:19:59 part 0 => fork | RSS=61937.2 MiB | USS=30908.0 MiB | PSS=41253.3 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115517.7 MiB | vm_free=1296.4 MiB | vm_percent=90.6 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 610 stations completed (out of 2175 stops)
+2025-11-13 04:25:37 part 1 => fork | RSS=61937.6 MiB | USS=30910.8 MiB | PSS=41254.7 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115521.9 MiB | vm_free=1291.7 MiB | vm_percent=90.6 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 610 stations completed (out of 2175 stops)
+2025-11-13 04:28:28 part 0 => fork | RSS=61937.2 MiB | USS=30908.0 MiB | PSS=41253.3 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115525.0 MiB | vm_free=1288.6 MiB | vm_percent=90.6 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 620 stations completed (out of 2175 stops)
+2025-11-13 04:34:02 part 1 => fork | RSS=61937.6 MiB | USS=30911.0 MiB | PSS=41254.8 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115605.5 MiB | vm_free=1207.6 MiB | vm_percent=90.7 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 620 stations completed (out of 2175 stops)
+2025-11-13 04:36:55 part 0 => fork | RSS=61937.2 MiB | USS=30908.0 MiB | PSS=41253.3 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115527.7 MiB | vm_free=1284.8 MiB | vm_percent=90.7 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 630 stations completed (out of 2175 stops)
+2025-11-13 04:42:27 part 1 => fork | RSS=61937.6 MiB | USS=30911.0 MiB | PSS=41254.8 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115550.2 MiB | vm_free=1261.8 MiB | vm_percent=90.7 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 630 stations completed (out of 2175 stops)
+2025-11-13 04:45:26 part 0 => fork | RSS=61937.2 MiB | USS=30908.0 MiB | PSS=41253.3 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115521.4 MiB | vm_free=1290.3 MiB | vm_percent=90.6 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 640 stations completed (out of 2175 stops)
+2025-11-13 04:50:56 part 1 => fork | RSS=61937.6 MiB | USS=30911.0 MiB | PSS=41254.8 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115553.8 MiB | vm_free=1257.4 MiB | vm_percent=90.7 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 640 stations completed (out of 2175 stops)
+2025-11-13 04:53:54 part 0 => fork | RSS=61953.2 MiB | USS=30924.1 MiB | PSS=41269.4 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115575.5 MiB | vm_free=1235.4 MiB | vm_percent=90.7 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 650 stations completed (out of 2175 stops)
+2025-11-13 04:59:22 part 1 => fork | RSS=61937.6 MiB | USS=30911.0 MiB | PSS=41254.8 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115570.3 MiB | vm_free=1240.1 MiB | vm_percent=90.7 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 650 stations completed (out of 2175 stops)
+2025-11-13 05:02:26 part 0 => fork | RSS=61953.2 MiB | USS=30924.3 MiB | PSS=41269.5 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115591.8 MiB | vm_free=1218.4 MiB | vm_percent=90.7 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 660 stations completed (out of 2175 stops)
+2025-11-13 05:07:49 part 1 => fork | RSS=61937.6 MiB | USS=30911.1 MiB | PSS=41254.9 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115631.5 MiB | vm_free=1178.4 MiB | vm_percent=90.7 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 660 stations completed (out of 2175 stops)
+2025-11-13 05:10:56 part 0 => fork | RSS=61953.2 MiB | USS=30924.3 MiB | PSS=41269.5 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115415.7 MiB | vm_free=1393.5 MiB | vm_percent=90.6 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 670 stations completed (out of 2175 stops)
+2025-11-13 05:16:16 part 1 => fork | RSS=61937.6 MiB | USS=30911.1 MiB | PSS=41254.9 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115584.6 MiB | vm_free=1224.3 MiB | vm_percent=90.7 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 670 stations completed (out of 2175 stops)
+2025-11-13 05:19:27 part 0 => fork | RSS=61953.2 MiB | USS=30924.3 MiB | PSS=41269.5 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115643.0 MiB | vm_free=1165.3 MiB | vm_percent=90.7 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 680 stations completed (out of 2175 stops)
+2025-11-13 05:24:46 part 1 => fork | RSS=61937.6 MiB | USS=30911.1 MiB | PSS=41254.9 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115645.8 MiB | vm_free=1162.4 MiB | vm_percent=90.7 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 680 stations completed (out of 2175 stops)
+2025-11-13 05:27:56 part 0 => fork | RSS=61953.2 MiB | USS=30924.4 MiB | PSS=41269.5 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115605.5 MiB | vm_free=1202.2 MiB | vm_percent=90.7 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 690 stations completed (out of 2175 stops)
+2025-11-13 05:33:16 part 1 => fork | RSS=61962.6 MiB | USS=30936.1 MiB | PSS=41279.9 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115633.1 MiB | vm_free=1174.1 MiB | vm_percent=90.7 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 690 stations completed (out of 2175 stops)
+2025-11-13 05:36:26 part 0 => fork | RSS=61953.2 MiB | USS=30924.4 MiB | PSS=41269.5 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115567.0 MiB | vm_free=1239.6 MiB | vm_percent=90.7 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 700 stations completed (out of 2175 stops)
+2025-11-13 05:41:46 part 1 => fork | RSS=61962.6 MiB | USS=30936.1 MiB | PSS=41279.9 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115561.1 MiB | vm_free=1245.1 MiB | vm_percent=90.7 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 700 stations completed (out of 2175 stops)
+2025-11-13 05:44:55 part 0 => fork | RSS=61953.2 MiB | USS=30924.4 MiB | PSS=41269.5 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115647.5 MiB | vm_free=1158.7 MiB | vm_percent=90.7 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 710 stations completed (out of 2175 stops)
+2025-11-13 05:50:13 part 1 => fork | RSS=61962.6 MiB | USS=30936.2 MiB | PSS=41280.0 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115609.1 MiB | vm_free=1196.2 MiB | vm_percent=90.7 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 710 stations completed (out of 2175 stops)
+2025-11-13 05:53:28 part 0 => fork | RSS=61953.2 MiB | USS=30924.4 MiB | PSS=41269.5 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115580.7 MiB | vm_free=1224.4 MiB | vm_percent=90.7 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 720 stations completed (out of 2175 stops)
+2025-11-13 05:58:43 part 1 => fork | RSS=61962.6 MiB | USS=30936.2 MiB | PSS=41280.0 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115584.9 MiB | vm_free=1219.6 MiB | vm_percent=90.7 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 720 stations completed (out of 2175 stops)
+2025-11-13 06:01:57 part 0 => fork | RSS=61953.2 MiB | USS=30924.4 MiB | PSS=41269.5 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115616.6 MiB | vm_free=1187.7 MiB | vm_percent=90.7 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 730 stations completed (out of 2175 stops)
+2025-11-13 06:07:10 part 1 => fork | RSS=61962.6 MiB | USS=30936.2 MiB | PSS=41280.0 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115653.1 MiB | vm_free=1109.2 MiB | vm_percent=90.7 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 730 stations completed (out of 2175 stops)
+2025-11-13 06:10:30 part 0 => fork | RSS=61953.2 MiB | USS=30924.4 MiB | PSS=41269.5 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115582.0 MiB | vm_free=1179.9 MiB | vm_percent=90.7 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 740 stations completed (out of 2175 stops)
+2025-11-13 06:15:42 part 1 => fork | RSS=61962.6 MiB | USS=30936.5 MiB | PSS=41280.1 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115617.9 MiB | vm_free=1143.6 MiB | vm_percent=90.7 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 740 stations completed (out of 2175 stops)
+2025-11-13 06:19:00 part 0 => fork | RSS=61953.2 MiB | USS=30924.4 MiB | PSS=41269.5 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115678.5 MiB | vm_free=1083.1 MiB | vm_percent=90.8 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 750 stations completed (out of 2175 stops)
+2025-11-13 06:24:10 part 1 => fork | RSS=61962.6 MiB | USS=30936.5 MiB | PSS=41280.1 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115676.1 MiB | vm_free=1084.9 MiB | vm_percent=90.8 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 750 stations completed (out of 2175 stops)
+2025-11-13 06:27:35 part 0 => fork | RSS=61953.2 MiB | USS=30924.4 MiB | PSS=41269.5 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115631.0 MiB | vm_free=1129.5 MiB | vm_percent=90.7 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 760 stations completed (out of 2175 stops)
+2025-11-13 06:32:41 part 1 => fork | RSS=61962.6 MiB | USS=30936.6 MiB | PSS=41280.2 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115622.3 MiB | vm_free=1137.6 MiB | vm_percent=90.7 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 760 stations completed (out of 2175 stops)
+2025-11-13 06:36:07 part 0 => fork | RSS=61953.2 MiB | USS=30924.4 MiB | PSS=41269.5 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115499.5 MiB | vm_free=1259.9 MiB | vm_percent=90.6 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 770 stations completed (out of 2175 stops)
+2025-11-13 06:41:14 part 1 => fork | RSS=61962.6 MiB | USS=30936.6 MiB | PSS=41280.2 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115671.0 MiB | vm_free=1088.3 MiB | vm_percent=90.8 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 770 stations completed (out of 2175 stops)
+2025-11-13 06:44:37 part 0 => fork | RSS=61953.2 MiB | USS=30924.4 MiB | PSS=41269.5 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115559.7 MiB | vm_free=1199.0 MiB | vm_percent=90.7 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 780 stations completed (out of 2175 stops)
+2025-11-13 06:49:40 part 1 => fork | RSS=61962.6 MiB | USS=30936.6 MiB | PSS=41280.2 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115635.6 MiB | vm_free=1122.6 MiB | vm_percent=90.7 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 780 stations completed (out of 2175 stops)
+2025-11-13 06:53:07 part 0 => fork | RSS=61953.2 MiB | USS=30924.4 MiB | PSS=41269.6 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115573.7 MiB | vm_free=1184.0 MiB | vm_percent=90.7 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 790 stations completed (out of 2175 stops)
+2025-11-13 06:58:08 part 1 => fork | RSS=61962.6 MiB | USS=30936.6 MiB | PSS=41280.2 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115569.2 MiB | vm_free=1187.9 MiB | vm_percent=90.7 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 790 stations completed (out of 2175 stops)
+2025-11-13 07:01:38 part 0 => fork | RSS=61953.2 MiB | USS=30924.4 MiB | PSS=41269.6 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115644.9 MiB | vm_free=1112.3 MiB | vm_percent=90.7 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 800 stations completed (out of 2175 stops)
+2025-11-13 07:06:38 part 1 => fork | RSS=61962.6 MiB | USS=30936.6 MiB | PSS=41280.2 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115647.8 MiB | vm_free=1108.7 MiB | vm_percent=90.7 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 800 stations completed (out of 2175 stops)
+2025-11-13 07:10:12 part 0 => fork | RSS=61953.2 MiB | USS=30924.4 MiB | PSS=41269.6 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115601.5 MiB | vm_free=1154.5 MiB | vm_percent=90.7 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 810 stations completed (out of 2175 stops)
+2025-11-13 07:15:15 part 1 => fork | RSS=61962.6 MiB | USS=30936.6 MiB | PSS=41280.2 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115581.7 MiB | vm_free=1173.8 MiB | vm_percent=90.7 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 810 stations completed (out of 2175 stops)
+2025-11-13 07:18:52 part 0 => fork | RSS=61953.2 MiB | USS=30924.4 MiB | PSS=41269.6 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115591.9 MiB | vm_free=1163.4 MiB | vm_percent=90.7 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 820 stations completed (out of 2175 stops)
+2025-11-13 07:23:55 part 1 => fork | RSS=61962.6 MiB | USS=30936.6 MiB | PSS=41280.2 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115666.6 MiB | vm_free=1088.4 MiB | vm_percent=90.8 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 820 stations completed (out of 2175 stops)
+2025-11-13 07:27:33 part 0 => fork | RSS=61953.2 MiB | USS=30924.4 MiB | PSS=41269.6 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115184.9 MiB | vm_free=1569.5 MiB | vm_percent=90.4 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 830 stations completed (out of 2175 stops)
+2025-11-13 07:32:29 part 1 => fork | RSS=61962.6 MiB | USS=30936.6 MiB | PSS=41280.2 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115100.4 MiB | vm_free=1654.0 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 830 stations completed (out of 2175 stops)
+2025-11-13 07:36:04 part 0 => fork | RSS=61953.2 MiB | USS=30926.5 MiB | PSS=41270.8 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115076.5 MiB | vm_free=1677.8 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 840 stations completed (out of 2175 stops)
+2025-11-13 07:41:05 part 1 => fork | RSS=61962.6 MiB | USS=30936.6 MiB | PSS=41280.4 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115070.9 MiB | vm_free=1683.3 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 840 stations completed (out of 2175 stops)
+2025-11-13 07:44:31 part 0 => fork | RSS=61953.2 MiB | USS=30926.5 MiB | PSS=41270.8 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115129.5 MiB | vm_free=1624.7 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 850 stations completed (out of 2175 stops)
+2025-11-13 07:49:35 part 1 => fork | RSS=61962.6 MiB | USS=30936.6 MiB | PSS=41280.4 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115110.8 MiB | vm_free=1643.4 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 850 stations completed (out of 2175 stops)
+2025-11-13 07:53:04 part 0 => fork | RSS=61953.2 MiB | USS=30926.5 MiB | PSS=41270.8 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115056.4 MiB | vm_free=1697.7 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 860 stations completed (out of 2175 stops)
+2025-11-13 07:58:03 part 1 => fork | RSS=61962.6 MiB | USS=30936.6 MiB | PSS=41280.4 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115088.4 MiB | vm_free=1665.6 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 860 stations completed (out of 2175 stops)
+2025-11-13 08:01:35 part 0 => fork | RSS=61953.2 MiB | USS=30928.1 MiB | PSS=41271.6 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115137.2 MiB | vm_free=1616.8 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 870 stations completed (out of 2175 stops)
+2025-11-13 08:06:31 part 1 => fork | RSS=61962.6 MiB | USS=30936.6 MiB | PSS=41280.4 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115119.8 MiB | vm_free=1634.2 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 870 stations completed (out of 2175 stops)
+2025-11-13 08:10:03 part 0 => fork | RSS=61953.2 MiB | USS=30928.1 MiB | PSS=41271.6 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115078.1 MiB | vm_free=1675.8 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 880 stations completed (out of 2175 stops)
+2025-11-13 08:14:58 part 1 => fork | RSS=61962.6 MiB | USS=30936.6 MiB | PSS=41280.4 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115055.6 MiB | vm_free=1698.1 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 880 stations completed (out of 2175 stops)
+2025-11-13 08:18:41 part 0 => fork | RSS=61953.2 MiB | USS=30928.1 MiB | PSS=41271.6 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115137.6 MiB | vm_free=1616.2 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 890 stations completed (out of 2175 stops)
+2025-11-13 08:23:32 part 1 => fork | RSS=61962.6 MiB | USS=30936.6 MiB | PSS=41280.4 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115127.6 MiB | vm_free=1626.1 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 890 stations completed (out of 2175 stops)
+2025-11-13 08:27:21 part 0 => fork | RSS=61953.2 MiB | USS=30928.1 MiB | PSS=41271.6 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115076.1 MiB | vm_free=1677.5 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 900 stations completed (out of 2175 stops)
+2025-11-13 08:32:06 part 1 => fork | RSS=61962.6 MiB | USS=30936.6 MiB | PSS=41280.4 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115074.2 MiB | vm_free=1679.3 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 900 stations completed (out of 2175 stops)
+2025-11-13 08:36:00 part 0 => fork | RSS=61953.2 MiB | USS=30928.1 MiB | PSS=41271.6 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115141.5 MiB | vm_free=1612.1 MiB | vm_percent=90.4 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 910 stations completed (out of 2175 stops)
+2025-11-13 08:40:36 part 1 => fork | RSS=61962.6 MiB | USS=30936.6 MiB | PSS=41280.4 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115093.4 MiB | vm_free=1660.1 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 910 stations completed (out of 2175 stops)
+2025-11-13 08:44:34 part 0 => fork | RSS=61953.2 MiB | USS=30928.1 MiB | PSS=41271.6 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115111.8 MiB | vm_free=1641.5 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 920 stations completed (out of 2175 stops)
+2025-11-13 08:48:59 part 1 => fork | RSS=61962.6 MiB | USS=30936.6 MiB | PSS=41280.4 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115090.4 MiB | vm_free=1662.9 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 920 stations completed (out of 2175 stops)
+2025-11-13 08:53:03 part 0 => fork | RSS=61953.2 MiB | USS=30928.1 MiB | PSS=41271.6 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115049.0 MiB | vm_free=1704.2 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 930 stations completed (out of 2175 stops)
+2025-11-13 08:57:25 part 1 => fork | RSS=61962.6 MiB | USS=30936.6 MiB | PSS=41280.4 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115140.1 MiB | vm_free=1613.1 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 930 stations completed (out of 2175 stops)
+2025-11-13 09:01:29 part 0 => fork | RSS=61953.2 MiB | USS=30928.1 MiB | PSS=41271.6 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115122.7 MiB | vm_free=1630.4 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 940 stations completed (out of 2175 stops)
+2025-11-13 09:05:51 part 1 => fork | RSS=61962.6 MiB | USS=30936.6 MiB | PSS=41280.4 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115101.3 MiB | vm_free=1651.8 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 940 stations completed (out of 2175 stops)
+2025-11-13 09:10:04 part 0 => fork | RSS=61953.2 MiB | USS=30928.1 MiB | PSS=41271.6 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115060.3 MiB | vm_free=1692.7 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 950 stations completed (out of 2175 stops)
+2025-11-13 09:14:20 part 1 => fork | RSS=61962.6 MiB | USS=30937.2 MiB | PSS=41280.7 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115141.2 MiB | vm_free=1611.8 MiB | vm_percent=90.4 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 950 stations completed (out of 2175 stops)
+2025-11-13 09:18:37 part 0 => fork | RSS=61953.2 MiB | USS=30928.1 MiB | PSS=41271.7 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115130.6 MiB | vm_free=1622.3 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 960 stations completed (out of 2175 stops)
+2025-11-13 09:22:47 part 1 => fork | RSS=61962.6 MiB | USS=30937.2 MiB | PSS=41280.7 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115109.5 MiB | vm_free=1643.3 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 960 stations completed (out of 2175 stops)
+2025-11-13 09:27:04 part 0 => fork | RSS=61953.2 MiB | USS=30928.1 MiB | PSS=41271.7 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115078.7 MiB | vm_free=1674.1 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 970 stations completed (out of 2175 stops)
+2025-11-13 09:31:15 part 1 => fork | RSS=61962.6 MiB | USS=30937.2 MiB | PSS=41280.7 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115046.5 MiB | vm_free=1706.1 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 970 stations completed (out of 2175 stops)
+2025-11-13 09:35:35 part 0 => fork | RSS=61953.2 MiB | USS=30928.1 MiB | PSS=41271.7 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115138.3 MiB | vm_free=1614.4 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 980 stations completed (out of 2175 stops)
+2025-11-13 09:39:42 part 1 => fork | RSS=61962.6 MiB | USS=30937.5 MiB | PSS=41280.9 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115118.8 MiB | vm_free=1633.7 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 980 stations completed (out of 2175 stops)
+2025-11-13 09:44:08 part 0 => fork | RSS=61953.2 MiB | USS=30928.1 MiB | PSS=41271.7 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115101.3 MiB | vm_free=1651.2 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 990 stations completed (out of 2175 stops)
+2025-11-13 09:48:09 part 1 => fork | RSS=61962.6 MiB | USS=30937.5 MiB | PSS=41280.9 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115064.2 MiB | vm_free=1688.2 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 990 stations completed (out of 2175 stops)
+2025-11-13 09:52:36 part 0 => fork | RSS=61953.2 MiB | USS=30928.1 MiB | PSS=41271.7 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115103.4 MiB | vm_free=1649.0 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1000 stations completed (out of 2175 stops)
+2025-11-13 09:56:35 part 1 => fork | RSS=61962.6 MiB | USS=30937.5 MiB | PSS=41280.9 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115136.3 MiB | vm_free=1616.1 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1000 stations completed (out of 2175 stops)
+2025-11-13 10:01:04 part 0 => fork | RSS=61953.2 MiB | USS=30928.1 MiB | PSS=41271.7 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115073.6 MiB | vm_free=1678.7 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1010 stations completed (out of 2175 stops)
+2025-11-13 10:05:03 part 1 => fork | RSS=61962.6 MiB | USS=30937.5 MiB | PSS=41280.9 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114971.6 MiB | vm_free=1780.6 MiB | vm_percent=90.2 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1010 stations completed (out of 2175 stops)
+2025-11-13 10:09:34 part 0 => fork | RSS=61953.2 MiB | USS=30928.1 MiB | PSS=41271.7 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114907.1 MiB | vm_free=1845.0 MiB | vm_percent=90.2 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1020 stations completed (out of 2175 stops)
+2025-11-13 10:13:28 part 1 => fork | RSS=61962.6 MiB | USS=30937.5 MiB | PSS=41280.9 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115141.0 MiB | vm_free=1611.1 MiB | vm_percent=90.4 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1020 stations completed (out of 2175 stops)
+2025-11-13 10:18:05 part 0 => fork | RSS=61953.2 MiB | USS=30928.1 MiB | PSS=41271.7 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115130.5 MiB | vm_free=1621.5 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1030 stations completed (out of 2175 stops)
+2025-11-13 10:21:50 part 1 => fork | RSS=61962.6 MiB | USS=30937.5 MiB | PSS=41280.9 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115091.2 MiB | vm_free=1660.8 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1030 stations completed (out of 2175 stops)
+2025-11-13 10:26:32 part 0 => fork | RSS=61953.2 MiB | USS=30928.1 MiB | PSS=41271.7 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115063.2 MiB | vm_free=1688.7 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1040 stations completed (out of 2175 stops)
+2025-11-13 10:30:13 part 1 => fork | RSS=61962.6 MiB | USS=30937.5 MiB | PSS=41280.9 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115144.3 MiB | vm_free=1607.6 MiB | vm_percent=90.4 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1040 stations completed (out of 2175 stops)
+2025-11-13 10:35:09 part 0 => fork | RSS=61953.2 MiB | USS=30928.1 MiB | PSS=41271.7 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115128.7 MiB | vm_free=1623.2 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1050 stations completed (out of 2175 stops)
+2025-11-13 10:38:40 part 1 => fork | RSS=61962.6 MiB | USS=30937.5 MiB | PSS=41280.9 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115102.0 MiB | vm_free=1649.8 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1050 stations completed (out of 2175 stops)
+2025-11-13 10:43:48 part 0 => fork | RSS=61953.2 MiB | USS=30928.1 MiB | PSS=41271.7 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114999.3 MiB | vm_free=1752.4 MiB | vm_percent=90.2 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1060 stations completed (out of 2175 stops)
+2025-11-13 10:47:12 part 1 => fork | RSS=61962.6 MiB | USS=30937.5 MiB | PSS=41280.9 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115154.4 MiB | vm_free=1597.3 MiB | vm_percent=90.4 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1060 stations completed (out of 2175 stops)
+2025-11-13 10:52:25 part 0 => fork | RSS=61953.2 MiB | USS=30928.1 MiB | PSS=41271.7 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115064.8 MiB | vm_free=1685.1 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1070 stations completed (out of 2175 stops)
+2025-11-13 10:55:43 part 1 => fork | RSS=61962.6 MiB | USS=30937.5 MiB | PSS=41280.9 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115111.3 MiB | vm_free=1638.6 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1070 stations completed (out of 2175 stops)
+2025-11-13 11:01:05 part 0 => fork | RSS=61953.2 MiB | USS=30928.1 MiB | PSS=41271.7 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115142.0 MiB | vm_free=1607.8 MiB | vm_percent=90.4 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1080 stations completed (out of 2175 stops)
+2025-11-13 11:04:13 part 1 => fork | RSS=61937.9 MiB | USS=30912.6 MiB | PSS=41255.9 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115077.0 MiB | vm_free=1672.3 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1080 stations completed (out of 2175 stops)
+2025-11-13 11:09:41 part 0 => fork | RSS=61953.2 MiB | USS=30928.1 MiB | PSS=41271.7 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115067.0 MiB | vm_free=1682.2 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1090 stations completed (out of 2175 stops)
+2025-11-13 11:12:45 part 1 => fork | RSS=61937.9 MiB | USS=30912.6 MiB | PSS=41255.9 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115144.4 MiB | vm_free=1604.8 MiB | vm_percent=90.4 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1090 stations completed (out of 2175 stops)
+2025-11-13 11:18:11 part 0 => fork | RSS=61953.2 MiB | USS=30928.1 MiB | PSS=41271.7 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115074.9 MiB | vm_free=1674.3 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1100 stations completed (out of 2175 stops)
+2025-11-13 11:21:19 part 1 => fork | RSS=61937.9 MiB | USS=30912.6 MiB | PSS=41256.0 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115082.9 MiB | vm_free=1666.2 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1100 stations completed (out of 2175 stops)
+2025-11-13 11:26:47 part 0 => fork | RSS=61953.2 MiB | USS=30928.1 MiB | PSS=41271.7 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115075.1 MiB | vm_free=1673.9 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1110 stations completed (out of 2175 stops)
+2025-11-13 11:29:53 part 1 => fork | RSS=61937.9 MiB | USS=30912.6 MiB | PSS=41256.0 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115129.2 MiB | vm_free=1619.8 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1110 stations completed (out of 2175 stops)
+2025-11-13 11:35:19 part 0 => fork | RSS=61953.2 MiB | USS=30928.1 MiB | PSS=41271.7 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115125.7 MiB | vm_free=1623.2 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1120 stations completed (out of 2175 stops)
+2025-11-13 11:38:25 part 1 => fork | RSS=61937.9 MiB | USS=30912.6 MiB | PSS=41256.0 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115083.6 MiB | vm_free=1665.2 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1120 stations completed (out of 2175 stops)
+2025-11-13 11:43:50 part 0 => fork | RSS=61953.2 MiB | USS=30928.1 MiB | PSS=41271.7 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115080.1 MiB | vm_free=1668.7 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1130 stations completed (out of 2175 stops)
+2025-11-13 11:46:54 part 1 => fork | RSS=61937.9 MiB | USS=30912.6 MiB | PSS=41256.0 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115135.0 MiB | vm_free=1613.7 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1130 stations completed (out of 2175 stops)
+2025-11-13 11:52:21 part 0 => fork | RSS=61953.2 MiB | USS=30928.1 MiB | PSS=41271.7 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115131.2 MiB | vm_free=1613.6 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1140 stations completed (out of 2175 stops)
+2025-11-13 11:55:22 part 1 => fork | RSS=61937.9 MiB | USS=30912.6 MiB | PSS=41256.0 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115081.4 MiB | vm_free=1663.0 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1140 stations completed (out of 2175 stops)
+2025-11-13 12:00:52 part 0 => fork | RSS=61953.2 MiB | USS=30928.1 MiB | PSS=41271.7 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115087.7 MiB | vm_free=1656.6 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1150 stations completed (out of 2175 stops)
+2025-11-13 12:03:49 part 1 => fork | RSS=61937.9 MiB | USS=30912.6 MiB | PSS=41256.0 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115058.2 MiB | vm_free=1686.1 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1150 stations completed (out of 2175 stops)
+2025-11-13 12:09:21 part 0 => fork | RSS=61953.2 MiB | USS=30928.1 MiB | PSS=41271.7 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115041.3 MiB | vm_free=1702.9 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1160 stations completed (out of 2175 stops)
+2025-11-13 12:12:16 part 1 => fork | RSS=61937.9 MiB | USS=30912.6 MiB | PSS=41256.0 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115087.5 MiB | vm_free=1656.7 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1160 stations completed (out of 2175 stops)
+2025-11-13 12:17:53 part 0 => fork | RSS=61953.2 MiB | USS=30928.1 MiB | PSS=41271.7 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115100.6 MiB | vm_free=1643.5 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1170 stations completed (out of 2175 stops)
+2025-11-13 12:20:44 part 1 => fork | RSS=61937.9 MiB | USS=30912.6 MiB | PSS=41256.0 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114886.8 MiB | vm_free=1857.2 MiB | vm_percent=90.2 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1170 stations completed (out of 2175 stops)
+2025-11-13 12:26:27 part 0 => fork | RSS=61954.4 MiB | USS=30929.4 MiB | PSS=41273.0 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115038.7 MiB | vm_free=1705.2 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1180 stations completed (out of 2175 stops)
+2025-11-13 12:29:12 part 1 => fork | RSS=61937.9 MiB | USS=30912.6 MiB | PSS=41256.0 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115107.0 MiB | vm_free=1636.9 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1180 stations completed (out of 2175 stops)
+2025-11-13 12:35:01 part 0 => fork | RSS=61954.4 MiB | USS=30929.4 MiB | PSS=41273.0 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115276.5 MiB | vm_free=1465.9 MiB | vm_percent=90.5 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1190 stations completed (out of 2175 stops)
+2025-11-13 12:37:35 part 1 => fork | RSS=61937.9 MiB | USS=30912.7 MiB | PSS=41256.0 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115076.4 MiB | vm_free=1665.4 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1190 stations completed (out of 2175 stops)
+2025-11-13 12:43:33 part 0 => fork | RSS=61954.4 MiB | USS=30929.5 MiB | PSS=41273.0 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115200.7 MiB | vm_free=1541.1 MiB | vm_percent=90.4 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1200 stations completed (out of 2175 stops)
+2025-11-13 12:46:10 part 1 => fork | RSS=61937.9 MiB | USS=30912.7 MiB | PSS=41256.0 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115255.3 MiB | vm_free=1486.5 MiB | vm_percent=90.4 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1200 stations completed (out of 2175 stops)
+2025-11-13 12:52:04 part 0 => fork | RSS=61954.4 MiB | USS=30929.5 MiB | PSS=41273.0 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115244.4 MiB | vm_free=1497.3 MiB | vm_percent=90.4 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1210 stations completed (out of 2175 stops)
+2025-11-13 12:54:40 part 1 => fork | RSS=61937.9 MiB | USS=30912.7 MiB | PSS=41256.0 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115170.7 MiB | vm_free=1571.0 MiB | vm_percent=90.4 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1210 stations completed (out of 2175 stops)
+2025-11-13 13:00:33 part 0 => fork | RSS=61954.4 MiB | USS=30929.5 MiB | PSS=41273.0 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114989.2 MiB | vm_free=1752.3 MiB | vm_percent=90.2 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1220 stations completed (out of 2175 stops)
+2025-11-13 13:03:06 part 1 => fork | RSS=61937.9 MiB | USS=30912.7 MiB | PSS=41256.0 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115185.2 MiB | vm_free=1556.3 MiB | vm_percent=90.4 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1220 stations completed (out of 2175 stops)
+2025-11-13 13:09:04 part 0 => fork | RSS=61954.4 MiB | USS=30929.6 MiB | PSS=41273.1 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115204.1 MiB | vm_free=1537.5 MiB | vm_percent=90.4 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1230 stations completed (out of 2175 stops)
+2025-11-13 13:11:33 part 1 => fork | RSS=61937.9 MiB | USS=30912.7 MiB | PSS=41256.0 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115135.1 MiB | vm_free=1606.4 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1230 stations completed (out of 2175 stops)
+2025-11-13 13:17:37 part 0 => fork | RSS=61954.4 MiB | USS=30929.6 MiB | PSS=41273.1 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115130.2 MiB | vm_free=1611.2 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1240 stations completed (out of 2175 stops)
+2025-11-13 13:20:01 part 1 => fork | RSS=61953.9 MiB | USS=30928.7 MiB | PSS=41272.0 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115197.4 MiB | vm_free=1543.9 MiB | vm_percent=90.4 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1240 stations completed (out of 2175 stops)
+2025-11-13 13:26:07 part 0 => fork | RSS=61954.4 MiB | USS=30929.6 MiB | PSS=41273.1 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115070.5 MiB | vm_free=1670.7 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1250 stations completed (out of 2175 stops)
+2025-11-13 13:28:27 part 1 => fork | RSS=61953.9 MiB | USS=30928.7 MiB | PSS=41272.0 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115115.0 MiB | vm_free=1626.2 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1250 stations completed (out of 2175 stops)
+2025-11-13 13:34:39 part 0 => fork | RSS=61954.4 MiB | USS=30929.6 MiB | PSS=41273.1 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115123.9 MiB | vm_free=1617.2 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1260 stations completed (out of 2175 stops)
+2025-11-13 13:36:51 part 1 => fork | RSS=61953.9 MiB | USS=30928.7 MiB | PSS=41272.0 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115054.6 MiB | vm_free=1686.4 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1260 stations completed (out of 2175 stops)
+2025-11-13 13:43:12 part 0 => fork | RSS=61954.4 MiB | USS=30929.6 MiB | PSS=41273.1 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115093.2 MiB | vm_free=1647.7 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1270 stations completed (out of 2175 stops)
+2025-11-13 13:45:14 part 1 => fork | RSS=61975.2 MiB | USS=30950.0 MiB | PSS=41293.3 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115132.6 MiB | vm_free=1608.4 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1270 stations completed (out of 2175 stops)
+2025-11-13 13:51:41 part 0 => fork | RSS=61954.4 MiB | USS=30929.6 MiB | PSS=41273.1 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115158.7 MiB | vm_free=1582.2 MiB | vm_percent=90.4 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1280 stations completed (out of 2175 stops)
+2025-11-13 13:53:38 part 1 => fork | RSS=61975.2 MiB | USS=30950.0 MiB | PSS=41293.3 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115080.8 MiB | vm_free=1660.0 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1280 stations completed (out of 2175 stops)
+2025-11-13 14:00:14 part 0 => fork | RSS=61954.4 MiB | USS=30929.6 MiB | PSS=41273.1 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115139.2 MiB | vm_free=1601.2 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1290 stations completed (out of 2175 stops)
+2025-11-13 14:02:05 part 1 => fork | RSS=61975.6 MiB | USS=30950.0 MiB | PSS=41293.3 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115141.3 MiB | vm_free=1599.1 MiB | vm_percent=90.4 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1290 stations completed (out of 2175 stops)
+2025-11-13 14:08:45 part 0 => fork | RSS=61954.4 MiB | USS=30929.6 MiB | PSS=41273.1 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115131.2 MiB | vm_free=1609.2 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1300 stations completed (out of 2175 stops)
+2025-11-13 14:10:35 part 1 => fork | RSS=61975.9 MiB | USS=30950.0 MiB | PSS=41293.3 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115119.8 MiB | vm_free=1620.5 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1300 stations completed (out of 2175 stops)
+2025-11-13 14:17:10 part 0 => fork | RSS=61954.4 MiB | USS=30929.6 MiB | PSS=41273.1 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115113.7 MiB | vm_free=1626.5 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1310 stations completed (out of 2175 stops)
+2025-11-13 14:18:58 part 1 => fork | RSS=61975.9 MiB | USS=30950.0 MiB | PSS=41293.3 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115115.8 MiB | vm_free=1624.4 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1310 stations completed (out of 2175 stops)
+2025-11-13 14:25:39 part 0 => fork | RSS=61954.4 MiB | USS=30929.6 MiB | PSS=41273.1 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115103.9 MiB | vm_free=1636.2 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1320 stations completed (out of 2175 stops)
+2025-11-13 14:27:31 part 1 => fork | RSS=61975.9 MiB | USS=30950.0 MiB | PSS=41293.3 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115102.2 MiB | vm_free=1637.9 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1320 stations completed (out of 2175 stops)
+2025-11-13 14:34:07 part 0 => fork | RSS=61954.4 MiB | USS=30929.6 MiB | PSS=41273.1 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115093.1 MiB | vm_free=1646.9 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1330 stations completed (out of 2175 stops)
+2025-11-13 14:35:58 part 1 => fork | RSS=61975.9 MiB | USS=30950.0 MiB | PSS=41293.3 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115093.2 MiB | vm_free=1646.8 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1330 stations completed (out of 2175 stops)
+2025-11-13 14:42:38 part 0 => fork | RSS=61954.4 MiB | USS=30929.6 MiB | PSS=41273.1 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115093.4 MiB | vm_free=1646.5 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1340 stations completed (out of 2175 stops)
+2025-11-13 14:44:26 part 1 => fork | RSS=61975.9 MiB | USS=30950.0 MiB | PSS=41293.3 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115088.6 MiB | vm_free=1651.2 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1340 stations completed (out of 2175 stops)
+2025-11-13 14:51:07 part 0 => fork | RSS=61954.0 MiB | USS=30929.6 MiB | PSS=41273.1 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115088.1 MiB | vm_free=1651.6 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1350 stations completed (out of 2175 stops)
+2025-11-13 14:52:53 part 1 => fork | RSS=61975.9 MiB | USS=30950.0 MiB | PSS=41293.3 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115083.8 MiB | vm_free=1655.9 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1350 stations completed (out of 2175 stops)
+2025-11-13 14:59:39 part 0 => fork | RSS=61954.0 MiB | USS=30929.6 MiB | PSS=41273.1 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115082.4 MiB | vm_free=1657.1 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1360 stations completed (out of 2175 stops)
+2025-11-13 15:01:22 part 1 => fork | RSS=61976.3 MiB | USS=30950.0 MiB | PSS=41293.3 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115072.7 MiB | vm_free=1666.8 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1360 stations completed (out of 2175 stops)
+2025-11-13 15:08:08 part 0 => fork | RSS=61954.0 MiB | USS=30929.6 MiB | PSS=41273.1 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114926.8 MiB | vm_free=1812.5 MiB | vm_percent=90.2 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1370 stations completed (out of 2175 stops)
+2025-11-13 15:09:50 part 1 => fork | RSS=61976.3 MiB | USS=30950.0 MiB | PSS=41293.3 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115060.9 MiB | vm_free=1678.5 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1370 stations completed (out of 2175 stops)
+2025-11-13 15:16:39 part 0 => fork | RSS=61954.0 MiB | USS=30929.6 MiB | PSS=41273.1 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115061.5 MiB | vm_free=1677.7 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1380 stations completed (out of 2175 stops)
+2025-11-13 15:18:16 part 1 => fork | RSS=61975.9 MiB | USS=30950.0 MiB | PSS=41293.3 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115063.8 MiB | vm_free=1675.4 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1380 stations completed (out of 2175 stops)
+2025-11-13 15:25:12 part 0 => fork | RSS=61954.0 MiB | USS=30929.6 MiB | PSS=41273.1 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115174.4 MiB | vm_free=1564.8 MiB | vm_percent=90.4 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1390 stations completed (out of 2175 stops)
+2025-11-13 15:26:48 part 1 => fork | RSS=61988.4 MiB | USS=30962.5 MiB | PSS=41305.7 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115097.9 MiB | vm_free=1641.1 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1390 stations completed (out of 2175 stops)
+2025-11-13 15:33:45 part 0 => fork | RSS=61954.0 MiB | USS=30929.6 MiB | PSS=41273.1 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115125.6 MiB | vm_free=1613.4 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1400 stations completed (out of 2175 stops)
+2025-11-13 15:35:15 part 1 => fork | RSS=61988.4 MiB | USS=30962.5 MiB | PSS=41305.7 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115150.0 MiB | vm_free=1589.0 MiB | vm_percent=90.4 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1400 stations completed (out of 2175 stops)
+2025-11-13 15:42:15 part 0 => fork | RSS=61954.0 MiB | USS=30929.6 MiB | PSS=41273.1 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115108.3 MiB | vm_free=1630.6 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1410 stations completed (out of 2175 stops)
+2025-11-13 15:43:43 part 1 => fork | RSS=61988.4 MiB | USS=30962.5 MiB | PSS=41305.8 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115105.3 MiB | vm_free=1633.5 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1410 stations completed (out of 2175 stops)
+2025-11-13 15:50:46 part 0 => fork | RSS=61954.0 MiB | USS=30930.3 MiB | PSS=41273.4 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115086.8 MiB | vm_free=1652.0 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1420 stations completed (out of 2175 stops)
+2025-11-13 15:52:16 part 1 => fork | RSS=61988.0 MiB | USS=30962.5 MiB | PSS=41305.8 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115110.9 MiB | vm_free=1627.8 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1420 stations completed (out of 2175 stops)
+2025-11-13 15:59:19 part 0 => fork | RSS=61954.0 MiB | USS=30930.3 MiB | PSS=41273.4 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115078.6 MiB | vm_free=1660.0 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1430 stations completed (out of 2175 stops)
+2025-11-13 16:00:46 part 1 => fork | RSS=61988.0 MiB | USS=30962.5 MiB | PSS=41305.8 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115127.7 MiB | vm_free=1610.9 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1430 stations completed (out of 2175 stops)
+2025-11-13 16:07:48 part 0 => fork | RSS=61954.0 MiB | USS=30930.3 MiB | PSS=41273.4 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115147.2 MiB | vm_free=1591.4 MiB | vm_percent=90.4 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1440 stations completed (out of 2175 stops)
+2025-11-13 16:09:09 part 1 => fork | RSS=61988.0 MiB | USS=30962.5 MiB | PSS=41305.8 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115174.8 MiB | vm_free=1563.7 MiB | vm_percent=90.4 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1440 stations completed (out of 2175 stops)
+2025-11-13 16:16:19 part 0 => fork | RSS=61954.0 MiB | USS=30930.3 MiB | PSS=41273.4 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115101.7 MiB | vm_free=1636.7 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1450 stations completed (out of 2175 stops)
+2025-11-13 16:17:34 part 1 => fork | RSS=61988.0 MiB | USS=30962.5 MiB | PSS=41305.8 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115133.1 MiB | vm_free=1605.4 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1450 stations completed (out of 2175 stops)
+2025-11-13 16:24:45 part 0 => fork | RSS=61954.0 MiB | USS=30930.3 MiB | PSS=41273.4 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115162.8 MiB | vm_free=1575.4 MiB | vm_percent=90.4 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1460 stations completed (out of 2175 stops)
+2025-11-13 16:26:01 part 1 => fork | RSS=61988.0 MiB | USS=30962.6 MiB | PSS=41305.9 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115088.3 MiB | vm_free=1649.9 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1460 stations completed (out of 2175 stops)
+2025-11-13 16:33:13 part 0 => fork | RSS=61954.0 MiB | USS=30930.3 MiB | PSS=41273.4 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115107.2 MiB | vm_free=1630.9 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1470 stations completed (out of 2175 stops)
+2025-11-13 16:34:27 part 1 => fork | RSS=61987.6 MiB | USS=30962.6 MiB | PSS=41305.9 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115154.3 MiB | vm_free=1583.8 MiB | vm_percent=90.4 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1470 stations completed (out of 2175 stops)
+2025-11-13 16:41:46 part 0 => fork | RSS=61954.0 MiB | USS=30930.4 MiB | PSS=41273.5 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115166.8 MiB | vm_free=1571.2 MiB | vm_percent=90.4 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1480 stations completed (out of 2175 stops)
+2025-11-13 16:42:50 part 1 => fork | RSS=61987.6 MiB | USS=30962.6 MiB | PSS=41305.9 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115072.0 MiB | vm_free=1666.0 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1480 stations completed (out of 2175 stops)
+2025-11-13 16:50:10 part 0 => fork | RSS=61954.0 MiB | USS=30930.4 MiB | PSS=41273.5 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115129.2 MiB | vm_free=1608.7 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1490 stations completed (out of 2175 stops)
+2025-11-13 16:51:18 part 1 => fork | RSS=61987.6 MiB | USS=30962.6 MiB | PSS=41305.9 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115151.4 MiB | vm_free=1586.4 MiB | vm_percent=90.4 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1490 stations completed (out of 2175 stops)
+2025-11-13 16:58:36 part 0 => fork | RSS=61954.0 MiB | USS=30930.4 MiB | PSS=41273.5 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115150.6 MiB | vm_free=1587.2 MiB | vm_percent=90.4 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1500 stations completed (out of 2175 stops)
+2025-11-13 16:59:43 part 1 => fork | RSS=61987.6 MiB | USS=30962.6 MiB | PSS=41305.9 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115091.8 MiB | vm_free=1645.9 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1500 stations completed (out of 2175 stops)
+2025-11-13 17:07:04 part 0 => fork | RSS=61954.0 MiB | USS=30930.4 MiB | PSS=41273.5 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115144.8 MiB | vm_free=1592.8 MiB | vm_percent=90.4 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1510 stations completed (out of 2175 stops)
+2025-11-13 17:08:09 part 1 => fork | RSS=61987.6 MiB | USS=30962.6 MiB | PSS=41305.9 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115164.0 MiB | vm_free=1573.6 MiB | vm_percent=90.4 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1510 stations completed (out of 2175 stops)
+2025-11-13 17:15:28 part 0 => fork | RSS=61954.0 MiB | USS=30930.4 MiB | PSS=41273.5 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115083.8 MiB | vm_free=1653.7 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1520 stations completed (out of 2175 stops)
+2025-11-13 17:16:31 part 1 => fork | RSS=61987.6 MiB | USS=30962.6 MiB | PSS=41305.9 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115113.7 MiB | vm_free=1623.8 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1520 stations completed (out of 2175 stops)
+2025-11-13 17:23:55 part 0 => fork | RSS=61954.0 MiB | USS=30930.4 MiB | PSS=41273.5 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115154.7 MiB | vm_free=1582.6 MiB | vm_percent=90.4 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1530 stations completed (out of 2175 stops)
+2025-11-13 17:24:58 part 1 => fork | RSS=61987.6 MiB | USS=30962.6 MiB | PSS=41305.9 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115177.4 MiB | vm_free=1559.9 MiB | vm_percent=90.4 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1530 stations completed (out of 2175 stops)
+2025-11-13 17:32:21 part 0 => fork | RSS=61954.0 MiB | USS=30930.4 MiB | PSS=41273.5 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115094.1 MiB | vm_free=1643.1 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1540 stations completed (out of 2175 stops)
+2025-11-13 17:33:26 part 1 => fork | RSS=61987.6 MiB | USS=30962.6 MiB | PSS=41305.9 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115127.0 MiB | vm_free=1610.2 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1540 stations completed (out of 2175 stops)
+2025-11-13 17:40:48 part 0 => fork | RSS=61975.6 MiB | USS=30952.3 MiB | PSS=41295.4 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115118.0 MiB | vm_free=1619.2 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1550 stations completed (out of 2175 stops)
+2025-11-13 17:41:57 part 1 => fork | RSS=61987.6 MiB | USS=30962.6 MiB | PSS=41305.9 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115026.3 MiB | vm_free=1710.9 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1550 stations completed (out of 2175 stops)
+2025-11-13 17:49:15 part 0 => fork | RSS=61975.6 MiB | USS=30952.7 MiB | PSS=41295.6 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115131.5 MiB | vm_free=1605.6 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1560 stations completed (out of 2175 stops)
+2025-11-13 17:50:25 part 1 => fork | RSS=61987.6 MiB | USS=30962.6 MiB | PSS=41305.9 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115151.8 MiB | vm_free=1585.2 MiB | vm_percent=90.4 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1560 stations completed (out of 2175 stops)
+2025-11-13 17:57:46 part 0 => fork | RSS=61975.6 MiB | USS=30952.7 MiB | PSS=41295.6 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115190.2 MiB | vm_free=1546.7 MiB | vm_percent=90.4 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1570 stations completed (out of 2175 stops)
+2025-11-13 17:58:49 part 1 => fork | RSS=61987.6 MiB | USS=30962.6 MiB | PSS=41305.9 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115125.6 MiB | vm_free=1611.3 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1570 stations completed (out of 2175 stops)
+2025-11-13 18:06:19 part 0 => fork | RSS=61975.6 MiB | USS=30952.7 MiB | PSS=41295.6 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115158.1 MiB | vm_free=1578.7 MiB | vm_percent=90.4 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1580 stations completed (out of 2175 stops)
+2025-11-13 18:07:21 part 1 => fork | RSS=61987.3 MiB | USS=30962.6 MiB | PSS=41305.9 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115156.3 MiB | vm_free=1580.4 MiB | vm_percent=90.4 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1580 stations completed (out of 2175 stops)
+2025-11-13 18:14:51 part 0 => fork | RSS=61976.0 MiB | USS=30952.7 MiB | PSS=41295.6 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115208.9 MiB | vm_free=1527.7 MiB | vm_percent=90.4 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1590 stations completed (out of 2175 stops)
+2025-11-13 18:15:54 part 1 => fork | RSS=61987.3 MiB | USS=30962.6 MiB | PSS=41305.9 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115114.7 MiB | vm_free=1621.9 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1590 stations completed (out of 2175 stops)
+2025-11-13 18:23:26 part 0 => fork | RSS=61976.0 MiB | USS=30952.7 MiB | PSS=41295.6 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115079.6 MiB | vm_free=1656.8 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1600 stations completed (out of 2175 stops)
+2025-11-13 18:24:35 part 1 => fork | RSS=61987.3 MiB | USS=30962.6 MiB | PSS=41305.9 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115123.9 MiB | vm_free=1612.5 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1600 stations completed (out of 2175 stops)
+2025-11-13 18:32:01 part 0 => fork | RSS=61976.3 MiB | USS=30952.7 MiB | PSS=41295.6 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115056.1 MiB | vm_free=1680.2 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1610 stations completed (out of 2175 stops)
+2025-11-13 18:33:05 part 1 => fork | RSS=61937.6 MiB | USS=30912.9 MiB | PSS=41256.2 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115088.6 MiB | vm_free=1647.7 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1610 stations completed (out of 2175 stops)
+2025-11-13 18:40:32 part 0 => fork | RSS=61976.3 MiB | USS=30952.7 MiB | PSS=41295.6 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115116.6 MiB | vm_free=1619.6 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1620 stations completed (out of 2175 stops)
+2025-11-13 18:41:36 part 1 => fork | RSS=61937.6 MiB | USS=30912.9 MiB | PSS=41256.2 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115137.1 MiB | vm_free=1599.1 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1620 stations completed (out of 2175 stops)
+2025-11-13 18:49:07 part 0 => fork | RSS=61976.3 MiB | USS=30952.7 MiB | PSS=41295.6 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115058.9 MiB | vm_free=1677.1 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1630 stations completed (out of 2175 stops)
+2025-11-13 18:50:11 part 1 => fork | RSS=61937.6 MiB | USS=30912.9 MiB | PSS=41256.2 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115098.4 MiB | vm_free=1637.6 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1630 stations completed (out of 2175 stops)
+2025-11-13 18:57:37 part 0 => fork | RSS=61976.3 MiB | USS=30952.7 MiB | PSS=41295.6 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115124.4 MiB | vm_free=1611.6 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1640 stations completed (out of 2175 stops)
+2025-11-13 18:58:39 part 1 => fork | RSS=61937.6 MiB | USS=30912.9 MiB | PSS=41256.2 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115146.2 MiB | vm_free=1589.7 MiB | vm_percent=90.4 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1640 stations completed (out of 2175 stops)
+2025-11-13 19:06:07 part 0 => fork | RSS=61976.3 MiB | USS=30952.7 MiB | PSS=41295.6 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115088.7 MiB | vm_free=1647.1 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1650 stations completed (out of 2175 stops)
+2025-11-13 19:07:06 part 1 => fork | RSS=61937.6 MiB | USS=30912.9 MiB | PSS=41256.2 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115108.7 MiB | vm_free=1627.1 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1650 stations completed (out of 2175 stops)
+2025-11-13 19:14:33 part 0 => fork | RSS=61976.3 MiB | USS=30952.7 MiB | PSS=41295.7 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115141.6 MiB | vm_free=1594.2 MiB | vm_percent=90.4 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1660 stations completed (out of 2175 stops)
+2025-11-13 19:15:33 part 1 => fork | RSS=61937.6 MiB | USS=30912.9 MiB | PSS=41256.2 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115053.5 MiB | vm_free=1682.2 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1660 stations completed (out of 2175 stops)
+2025-11-13 19:23:03 part 0 => fork | RSS=61976.3 MiB | USS=30952.7 MiB | PSS=41295.7 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115097.4 MiB | vm_free=1638.2 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1670 stations completed (out of 2175 stops)
+2025-11-13 19:24:05 part 1 => fork | RSS=61937.6 MiB | USS=30912.9 MiB | PSS=41256.2 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115121.9 MiB | vm_free=1613.7 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1670 stations completed (out of 2175 stops)
+2025-11-13 19:31:34 part 0 => fork | RSS=61976.3 MiB | USS=30952.7 MiB | PSS=41295.7 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115104.0 MiB | vm_free=1631.5 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1680 stations completed (out of 2175 stops)
+2025-11-13 19:32:29 part 1 => fork | RSS=61937.6 MiB | USS=30912.9 MiB | PSS=41256.2 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115054.5 MiB | vm_free=1680.9 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1680 stations completed (out of 2175 stops)
+2025-11-13 19:40:01 part 0 => fork | RSS=61976.3 MiB | USS=30952.7 MiB | PSS=41295.7 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115099.1 MiB | vm_free=1636.3 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1690 stations completed (out of 2175 stops)
+2025-11-13 19:40:54 part 1 => fork | RSS=61937.6 MiB | USS=30912.9 MiB | PSS=41256.2 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115124.5 MiB | vm_free=1610.9 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1690 stations completed (out of 2175 stops)
+2025-11-13 19:48:28 part 0 => fork | RSS=61976.3 MiB | USS=30952.7 MiB | PSS=41295.7 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115086.8 MiB | vm_free=1648.4 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1700 stations completed (out of 2175 stops)
+2025-11-13 19:49:19 part 1 => fork | RSS=61989.5 MiB | USS=30964.8 MiB | PSS=41308.1 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115003.5 MiB | vm_free=1731.7 MiB | vm_percent=90.2 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1700 stations completed (out of 2175 stops)
+2025-11-13 19:56:58 part 0 => fork | RSS=61976.3 MiB | USS=30952.7 MiB | PSS=41295.7 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115160.7 MiB | vm_free=1574.4 MiB | vm_percent=90.4 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1710 stations completed (out of 2175 stops)
+2025-11-13 19:57:44 part 1 => fork | RSS=61989.5 MiB | USS=30964.9 MiB | PSS=41308.1 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115180.6 MiB | vm_free=1554.6 MiB | vm_percent=90.4 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1710 stations completed (out of 2175 stops)
+2025-11-13 20:05:24 part 0 => fork | RSS=61976.3 MiB | USS=30952.7 MiB | PSS=41295.7 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115111.4 MiB | vm_free=1623.6 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1720 stations completed (out of 2175 stops)
+2025-11-13 20:06:12 part 1 => fork | RSS=61989.5 MiB | USS=30964.9 MiB | PSS=41308.1 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115130.5 MiB | vm_free=1604.4 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1720 stations completed (out of 2175 stops)
+2025-11-13 20:13:59 part 0 => fork | RSS=61976.3 MiB | USS=30952.7 MiB | PSS=41295.7 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115185.3 MiB | vm_free=1549.6 MiB | vm_percent=90.4 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1730 stations completed (out of 2175 stops)
+2025-11-13 20:14:40 part 1 => fork | RSS=61989.5 MiB | USS=30964.9 MiB | PSS=41308.1 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115186.6 MiB | vm_free=1548.4 MiB | vm_percent=90.4 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1730 stations completed (out of 2175 stops)
+2025-11-13 20:22:30 part 0 => fork | RSS=61976.3 MiB | USS=30952.7 MiB | PSS=41295.7 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115147.0 MiB | vm_free=1587.8 MiB | vm_percent=90.4 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1740 stations completed (out of 2175 stops)
+2025-11-13 20:23:05 part 1 => fork | RSS=61989.9 MiB | USS=30964.9 MiB | PSS=41308.1 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115146.5 MiB | vm_free=1588.3 MiB | vm_percent=90.4 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1740 stations completed (out of 2175 stops)
+2025-11-13 20:30:59 part 0 => fork | RSS=61976.3 MiB | USS=30952.7 MiB | PSS=41295.7 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115108.8 MiB | vm_free=1625.9 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1750 stations completed (out of 2175 stops)
+2025-11-13 20:31:32 part 1 => fork | RSS=61989.9 MiB | USS=30964.9 MiB | PSS=41308.1 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115095.5 MiB | vm_free=1639.1 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1750 stations completed (out of 2175 stops)
+2025-11-13 20:39:29 part 0 => fork | RSS=61976.3 MiB | USS=30952.7 MiB | PSS=41295.7 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115135.0 MiB | vm_free=1599.6 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1760 stations completed (out of 2175 stops)
+2025-11-13 20:40:00 part 1 => fork | RSS=61989.9 MiB | USS=30964.9 MiB | PSS=41308.1 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115160.2 MiB | vm_free=1574.3 MiB | vm_percent=90.4 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1760 stations completed (out of 2175 stops)
+2025-11-13 20:47:56 part 0 => fork | RSS=61976.3 MiB | USS=30952.7 MiB | PSS=41295.7 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115147.6 MiB | vm_free=1586.8 MiB | vm_percent=90.4 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1770 stations completed (out of 2175 stops)
+2025-11-13 20:48:29 part 1 => fork | RSS=61989.9 MiB | USS=30964.9 MiB | PSS=41308.1 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115094.2 MiB | vm_free=1640.2 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1770 stations completed (out of 2175 stops)
+2025-11-13 20:56:28 part 0 => fork | RSS=61976.3 MiB | USS=30952.7 MiB | PSS=41295.7 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115159.0 MiB | vm_free=1575.3 MiB | vm_percent=90.4 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1780 stations completed (out of 2175 stops)
+2025-11-13 20:56:52 part 1 => fork | RSS=61989.9 MiB | USS=30964.9 MiB | PSS=41308.1 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115169.5 MiB | vm_free=1564.8 MiB | vm_percent=90.4 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1780 stations completed (out of 2175 stops)
+2025-11-13 21:04:56 part 0 => fork | RSS=61976.3 MiB | USS=30952.7 MiB | PSS=41295.7 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115104.6 MiB | vm_free=1629.6 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1790 stations completed (out of 2175 stops)
+2025-11-13 21:05:21 part 1 => fork | RSS=61989.9 MiB | USS=30964.9 MiB | PSS=41308.1 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115116.5 MiB | vm_free=1617.7 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1790 stations completed (out of 2175 stops)
+2025-11-13 21:13:31 part 0 => fork | RSS=61976.3 MiB | USS=30952.7 MiB | PSS=41295.7 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115115.4 MiB | vm_free=1618.7 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1800 stations completed (out of 2175 stops)
+2025-11-13 21:13:50 part 1 => fork | RSS=61989.9 MiB | USS=30964.9 MiB | PSS=41308.1 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=114998.5 MiB | vm_free=1735.5 MiB | vm_percent=90.2 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1800 stations completed (out of 2175 stops)
+2025-11-13 21:22:05 part 0 => fork | RSS=61976.3 MiB | USS=30952.7 MiB | PSS=41295.7 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115107.6 MiB | vm_free=1626.3 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1810 stations completed (out of 2175 stops)
+2025-11-13 21:22:20 part 1 => fork | RSS=61989.5 MiB | USS=30964.9 MiB | PSS=41308.1 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115119.6 MiB | vm_free=1614.3 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1810 stations completed (out of 2175 stops)
+2025-11-13 21:30:38 part 0 => fork | RSS=61976.3 MiB | USS=30952.7 MiB | PSS=41295.7 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115188.1 MiB | vm_free=1545.8 MiB | vm_percent=90.4 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1820 stations completed (out of 2175 stops)
+2025-11-13 21:30:48 part 1 => fork | RSS=61989.5 MiB | USS=30964.9 MiB | PSS=41308.1 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115186.1 MiB | vm_free=1547.8 MiB | vm_percent=90.4 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1820 stations completed (out of 2175 stops)
+2025-11-13 21:39:07 part 0 => fork | RSS=61976.3 MiB | USS=30952.7 MiB | PSS=41295.7 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115136.6 MiB | vm_free=1597.1 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1830 stations completed (out of 2175 stops)
+2025-11-13 21:39:15 part 1 => fork | RSS=61989.5 MiB | USS=30964.9 MiB | PSS=41308.1 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115136.6 MiB | vm_free=1597.1 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1830 stations completed (out of 2175 stops)
+2025-11-13 21:47:37 part 0 => fork | RSS=61976.3 MiB | USS=30953.7 MiB | PSS=41296.1 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115114.7 MiB | vm_free=1618.9 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1840 stations completed (out of 2175 stops)
+2025-11-13 21:47:49 part 1 => fork | RSS=61989.5 MiB | USS=30964.9 MiB | PSS=41308.1 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115188.4 MiB | vm_free=1545.2 MiB | vm_percent=90.4 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1840 stations completed (out of 2175 stops)
+2025-11-13 21:56:07 part 0 => fork | RSS=61976.3 MiB | USS=30953.7 MiB | PSS=41296.1 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115145.4 MiB | vm_free=1588.1 MiB | vm_percent=90.4 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1850 stations completed (out of 2175 stops)
+2025-11-13 21:56:16 part 1 => fork | RSS=61989.5 MiB | USS=30964.9 MiB | PSS=41308.1 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115157.1 MiB | vm_free=1576.4 MiB | vm_percent=90.4 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1850 stations completed (out of 2175 stops)
+2025-11-13 22:04:36 part 0 => fork | RSS=61976.3 MiB | USS=30953.7 MiB | PSS=41296.1 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115116.9 MiB | vm_free=1616.4 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1860 stations completed (out of 2175 stops)
+2025-11-13 22:04:43 part 1 => fork | RSS=61989.2 MiB | USS=30964.9 MiB | PSS=41308.1 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115097.6 MiB | vm_free=1635.7 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1860 stations completed (out of 2175 stops)
+2025-11-13 22:13:09 part 0 => fork | RSS=61976.3 MiB | USS=30953.7 MiB | PSS=41296.1 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115155.1 MiB | vm_free=1578.1 MiB | vm_percent=90.4 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1870 stations completed (out of 2175 stops)
+2025-11-13 22:13:14 part 1 => fork | RSS=61989.5 MiB | USS=30964.9 MiB | PSS=41308.1 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115167.8 MiB | vm_free=1565.5 MiB | vm_percent=90.4 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1870 stations completed (out of 2175 stops)
+2025-11-13 22:21:43 part 0 => fork | RSS=61976.3 MiB | USS=30953.7 MiB | PSS=41296.1 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115140.2 MiB | vm_free=1592.8 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1880 stations completed (out of 2175 stops)
+2025-11-13 22:21:44 part 1 => fork | RSS=61989.7 MiB | USS=30965.1 MiB | PSS=41308.4 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115011.1 MiB | vm_free=1722.0 MiB | vm_percent=90.2 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1890 stations completed (out of 2175 stops)
+2025-11-13 22:30:12 part 1 => fork | RSS=61989.4 MiB | USS=30965.1 MiB | PSS=41308.4 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115124.4 MiB | vm_free=1608.5 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1880 stations completed (out of 2175 stops)
+2025-11-13 22:30:18 part 0 => fork | RSS=61976.7 MiB | USS=30953.7 MiB | PSS=41296.1 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115215.2 MiB | vm_free=1517.8 MiB | vm_percent=90.4 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1900 stations completed (out of 2175 stops)
+2025-11-13 22:38:42 part 1 => fork | RSS=61989.4 MiB | USS=30965.1 MiB | PSS=41308.4 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115141.3 MiB | vm_free=1591.6 MiB | vm_percent=90.4 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1890 stations completed (out of 2175 stops)
+2025-11-13 22:38:48 part 0 => fork | RSS=61976.7 MiB | USS=30953.7 MiB | PSS=41296.1 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115144.1 MiB | vm_free=1588.7 MiB | vm_percent=90.4 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1910 stations completed (out of 2175 stops)
+2025-11-13 22:47:05 part 1 => fork | RSS=61989.4 MiB | USS=30965.1 MiB | PSS=41308.4 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115216.8 MiB | vm_free=1516.0 MiB | vm_percent=90.4 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1900 stations completed (out of 2175 stops)
+2025-11-13 22:47:20 part 0 => fork | RSS=61976.7 MiB | USS=30953.7 MiB | PSS=41296.2 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115214.8 MiB | vm_free=1518.0 MiB | vm_percent=90.4 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1920 stations completed (out of 2175 stops)
+2025-11-13 22:55:36 part 1 => fork | RSS=61989.4 MiB | USS=30965.1 MiB | PSS=41308.4 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115163.8 MiB | vm_free=1568.8 MiB | vm_percent=90.4 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1910 stations completed (out of 2175 stops)
+2025-11-13 22:55:54 part 0 => fork | RSS=61988.9 MiB | USS=30966.0 MiB | PSS=41308.4 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115083.8 MiB | vm_free=1648.8 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1930 stations completed (out of 2175 stops)
+2025-11-13 23:04:06 part 1 => fork | RSS=61989.4 MiB | USS=30965.1 MiB | PSS=41308.4 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115210.6 MiB | vm_free=1521.9 MiB | vm_percent=90.4 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1920 stations completed (out of 2175 stops)
+2025-11-13 23:04:24 part 0 => fork | RSS=61988.9 MiB | USS=30966.0 MiB | PSS=41308.4 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115168.7 MiB | vm_free=1563.8 MiB | vm_percent=90.4 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1940 stations completed (out of 2175 stops)
+2025-11-13 23:12:34 part 1 => fork | RSS=61989.4 MiB | USS=30965.1 MiB | PSS=41308.4 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115165.4 MiB | vm_free=1567.0 MiB | vm_percent=90.4 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1930 stations completed (out of 2175 stops)
+2025-11-13 23:12:57 part 0 => fork | RSS=61988.9 MiB | USS=30966.0 MiB | PSS=41308.4 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115176.2 MiB | vm_free=1556.1 MiB | vm_percent=90.4 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1950 stations completed (out of 2175 stops)
+2025-11-13 23:21:05 part 1 => fork | RSS=61989.4 MiB | USS=30965.1 MiB | PSS=41308.4 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115131.6 MiB | vm_free=1600.6 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1940 stations completed (out of 2175 stops)
+2025-11-13 23:21:31 part 0 => fork | RSS=61988.9 MiB | USS=30966.0 MiB | PSS=41308.4 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115115.6 MiB | vm_free=1616.6 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1960 stations completed (out of 2175 stops)
+2025-11-13 23:29:35 part 1 => fork | RSS=61989.4 MiB | USS=30965.1 MiB | PSS=41308.4 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115178.4 MiB | vm_free=1553.7 MiB | vm_percent=90.4 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1950 stations completed (out of 2175 stops)
+2025-11-13 23:30:04 part 0 => fork | RSS=61988.9 MiB | USS=30966.0 MiB | PSS=41308.4 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115198.9 MiB | vm_free=1533.3 MiB | vm_percent=90.4 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1970 stations completed (out of 2175 stops)
+2025-11-13 23:38:01 part 1 => fork | RSS=61989.4 MiB | USS=30965.1 MiB | PSS=41308.4 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115127.7 MiB | vm_free=1604.3 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1960 stations completed (out of 2175 stops)
+2025-11-13 23:38:36 part 0 => fork | RSS=61988.9 MiB | USS=30966.0 MiB | PSS=41308.4 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115020.4 MiB | vm_free=1711.6 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1980 stations completed (out of 2175 stops)
+2025-11-13 23:46:33 part 1 => fork | RSS=61989.4 MiB | USS=30965.1 MiB | PSS=41308.4 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115197.7 MiB | vm_free=1534.3 MiB | vm_percent=90.4 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1970 stations completed (out of 2175 stops)
+2025-11-13 23:47:11 part 0 => fork | RSS=61988.5 MiB | USS=30966.0 MiB | PSS=41308.4 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115207.6 MiB | vm_free=1524.3 MiB | vm_percent=90.4 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 1990 stations completed (out of 2175 stops)
+2025-11-13 23:55:01 part 1 => fork | RSS=61989.4 MiB | USS=30965.1 MiB | PSS=41308.4 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115132.8 MiB | vm_free=1599.0 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1980 stations completed (out of 2175 stops)
+2025-11-13 23:55:44 part 0 => fork | RSS=61988.5 MiB | USS=30966.0 MiB | PSS=41308.4 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115160.5 MiB | vm_free=1571.3 MiB | vm_percent=90.4 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 2000 stations completed (out of 2175 stops)
+2025-11-14 00:03:27 part 1 => fork | RSS=61989.4 MiB | USS=30965.1 MiB | PSS=41308.4 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115198.8 MiB | vm_free=1531.7 MiB | vm_percent=90.4 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 1990 stations completed (out of 2175 stops)
+2025-11-14 00:04:14 part 0 => fork | RSS=61988.5 MiB | USS=30966.0 MiB | PSS=41308.4 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115220.6 MiB | vm_free=1509.9 MiB | vm_percent=90.4 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 2010 stations completed (out of 2175 stops)
+2025-11-14 00:11:53 part 1 => fork | RSS=61989.4 MiB | USS=30965.1 MiB | PSS=41308.4 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115163.1 MiB | vm_free=1565.7 MiB | vm_percent=90.4 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 2000 stations completed (out of 2175 stops)
+2025-11-14 00:12:50 part 0 => fork | RSS=61988.5 MiB | USS=30966.0 MiB | PSS=41308.4 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115189.5 MiB | vm_free=1539.3 MiB | vm_percent=90.4 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 2020 stations completed (out of 2175 stops)
+2025-11-14 00:20:23 part 1 => fork | RSS=61989.4 MiB | USS=30965.1 MiB | PSS=41308.4 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115216.8 MiB | vm_free=1511.9 MiB | vm_percent=90.4 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 2010 stations completed (out of 2175 stops)
+2025-11-14 00:21:16 part 0 => fork | RSS=61988.5 MiB | USS=30966.0 MiB | PSS=41308.4 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115132.7 MiB | vm_free=1595.8 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 2030 stations completed (out of 2175 stops)
+2025-11-14 00:28:54 part 1 => fork | RSS=61989.4 MiB | USS=30965.1 MiB | PSS=41308.4 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115187.4 MiB | vm_free=1541.1 MiB | vm_percent=90.4 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 2020 stations completed (out of 2175 stops)
+2025-11-14 00:29:45 part 0 => fork | RSS=61988.5 MiB | USS=30966.0 MiB | PSS=41308.4 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115129.8 MiB | vm_free=1598.6 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 2040 stations completed (out of 2175 stops)
+2025-11-14 00:37:19 part 1 => fork | RSS=61989.4 MiB | USS=30965.1 MiB | PSS=41308.4 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115226.8 MiB | vm_free=1501.6 MiB | vm_percent=90.4 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 2030 stations completed (out of 2175 stops)
+2025-11-14 00:38:19 part 0 => fork | RSS=61988.5 MiB | USS=30966.0 MiB | PSS=41308.4 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115135.8 MiB | vm_free=1592.5 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 2050 stations completed (out of 2175 stops)
+2025-11-14 00:45:47 part 1 => fork | RSS=61989.4 MiB | USS=30965.1 MiB | PSS=41308.4 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115182.1 MiB | vm_free=1546.0 MiB | vm_percent=90.4 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 2040 stations completed (out of 2175 stops)
+2025-11-14 00:46:49 part 0 => fork | RSS=61988.5 MiB | USS=30966.0 MiB | PSS=41308.4 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115159.5 MiB | vm_free=1568.7 MiB | vm_percent=90.4 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 2060 stations completed (out of 2175 stops)
+2025-11-14 00:54:10 part 1 => fork | RSS=61989.4 MiB | USS=30965.1 MiB | PSS=41308.4 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115121.3 MiB | vm_free=1606.8 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 2050 stations completed (out of 2175 stops)
+2025-11-14 00:55:20 part 0 => fork | RSS=61988.5 MiB | USS=30966.0 MiB | PSS=41308.4 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115046.1 MiB | vm_free=1682.0 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 2070 stations completed (out of 2175 stops)
+2025-11-14 01:02:43 part 1 => fork | RSS=61989.4 MiB | USS=30965.1 MiB | PSS=41308.4 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115125.9 MiB | vm_free=1602.1 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 2060 stations completed (out of 2175 stops)
+2025-11-14 01:03:50 part 0 => fork | RSS=61988.5 MiB | USS=30966.0 MiB | PSS=41308.4 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115211.6 MiB | vm_free=1516.4 MiB | vm_percent=90.4 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 2080 stations completed (out of 2175 stops)
+2025-11-14 01:11:12 part 1 => fork | RSS=61989.4 MiB | USS=30965.1 MiB | PSS=41308.4 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115001.6 MiB | vm_free=1726.2 MiB | vm_percent=90.2 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 2070 stations completed (out of 2175 stops)
+2025-11-14 01:12:19 part 0 => fork | RSS=61988.5 MiB | USS=30966.0 MiB | PSS=41308.4 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115166.2 MiB | vm_free=1561.6 MiB | vm_percent=90.4 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 2090 stations completed (out of 2175 stops)
+2025-11-14 01:19:39 part 1 => fork | RSS=61989.4 MiB | USS=30965.1 MiB | PSS=41308.4 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115198.6 MiB | vm_free=1529.2 MiB | vm_percent=90.4 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 2080 stations completed (out of 2175 stops)
+2025-11-14 01:20:48 part 0 => fork | RSS=61988.5 MiB | USS=30966.0 MiB | PSS=41308.4 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115092.5 MiB | vm_free=1635.3 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 2100 stations completed (out of 2175 stops)
+2025-11-14 01:28:07 part 1 => fork | RSS=61989.4 MiB | USS=30965.1 MiB | PSS=41308.4 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115154.3 MiB | vm_free=1573.3 MiB | vm_percent=90.4 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 2090 stations completed (out of 2175 stops)
+2025-11-14 01:29:18 part 0 => fork | RSS=61988.5 MiB | USS=30966.0 MiB | PSS=41308.4 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115186.4 MiB | vm_free=1541.2 MiB | vm_percent=90.4 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 2110 stations completed (out of 2175 stops)
+2025-11-14 01:36:35 part 1 => fork | RSS=61989.4 MiB | USS=30965.1 MiB | PSS=41308.4 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115157.7 MiB | vm_free=1569.8 MiB | vm_percent=90.4 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 2100 stations completed (out of 2175 stops)
+2025-11-14 01:37:48 part 0 => fork | RSS=61988.2 MiB | USS=30966.0 MiB | PSS=41308.4 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115129.1 MiB | vm_free=1598.3 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 2120 stations completed (out of 2175 stops)
+2025-11-14 01:45:04 part 1 => fork | RSS=61989.4 MiB | USS=30965.1 MiB | PSS=41308.4 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115176.6 MiB | vm_free=1550.7 MiB | vm_percent=90.4 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 2110 stations completed (out of 2175 stops)
+2025-11-14 01:46:16 part 0 => fork | RSS=61988.2 MiB | USS=30966.0 MiB | PSS=41308.4 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115197.4 MiB | vm_free=1530.0 MiB | vm_percent=90.4 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 2130 stations completed (out of 2175 stops)
+2025-11-14 01:53:30 part 1 => fork | RSS=61989.4 MiB | USS=30965.1 MiB | PSS=41308.4 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115193.9 MiB | vm_free=1533.3 MiB | vm_percent=90.4 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 2120 stations completed (out of 2175 stops)
+2025-11-14 01:54:46 part 0 => fork | RSS=61988.2 MiB | USS=30966.0 MiB | PSS=41308.4 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115134.9 MiB | vm_free=1592.3 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 2140 stations completed (out of 2175 stops)
+2025-11-14 02:02:00 part 1 => fork | RSS=61989.4 MiB | USS=30965.1 MiB | PSS=41308.4 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115186.0 MiB | vm_free=1541.1 MiB | vm_percent=90.4 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 2130 stations completed (out of 2175 stops)
+2025-11-14 02:03:19 part 0 => fork | RSS=61988.2 MiB | USS=30966.1 MiB | PSS=41308.5 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115136.2 MiB | vm_free=1590.9 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 2150 stations completed (out of 2175 stops)
+2025-11-14 02:10:26 part 1 => fork | RSS=61989.0 MiB | USS=30965.1 MiB | PSS=41308.4 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115117.2 MiB | vm_free=1609.8 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 2140 stations completed (out of 2175 stops)
+2025-11-14 02:11:53 part 0 => fork | RSS=61987.8 MiB | USS=30966.1 MiB | PSS=41308.5 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115125.1 MiB | vm_free=1601.9 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 2160 stations completed (out of 2175 stops)
+2025-11-14 02:18:50 part 1 => fork | RSS=61989.0 MiB | USS=30965.1 MiB | PSS=41308.4 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115120.7 MiB | vm_free=1606.1 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 2150 stations completed (out of 2175 stops)
+2025-11-14 02:20:24 part 0 => fork | RSS=61987.8 MiB | USS=30966.1 MiB | PSS=41308.5 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115119.1 MiB | vm_free=1607.6 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1, 2170 stations completed (out of 2175 stops)
+2025-11-14 02:27:18 part 1 => fork | RSS=61989.0 MiB | USS=30965.1 MiB | PSS=41308.4 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115132.1 MiB | vm_free=1594.6 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0, 2160 stations completed (out of 2175 stops)
+2025-11-14 02:28:56 part 0 => fork | RSS=61987.8 MiB | USS=30966.1 MiB | PSS=41308.5 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=115133.4 MiB | vm_free=1593.3 MiB | vm_percent=90.3 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 1 written => 2025-11-14 02:31:32
+part 0, 2170 stations completed (out of 2175 stops)
+2025-11-14 02:37:33 part 0 => fork | RSS=61987.5 MiB | USS=30966.2 MiB | PSS=46479.5 MiB | Shared=10.9 MiB | vm_total=128798.6 MiB | vm_used=83877.4 MiB | vm_free=32848.9 MiB | vm_percent=66.1 % | swap_total=8192.0 MiB | swap_used=0.5 MiB | swap_free=8191.5 MiB | swap_percent=0.0 %
+------------------------------------------------------------------------------------------------
+part 0 written => 2025-11-14 02:41:45
+assignBetwCentralityToG completed
+Time taken2: 130644.47546029091 seconds; 2025-11-14 02:42:35; cpu_count() 50 => TOPOLOGICAL ANALYSIS

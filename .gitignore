@@ -1,0 +1,21 @@
+# OS / Python cache
+.DS_Store
+__pycache__/
+*.pyc
+
+# Intermediate files / run artifacts (regenerable, not needed in repo)
+myPy/trashSite/
+myPy/main.pid
+myPy/my_script.log
+
+# Run logs: keep only the 9 logs cited as sources in timing_report_hb_runnable.md (section 6)
+myPy/log_busnet_*.txt
+!myPy/log_busnet_20251008_2_10_time_taken4.txt
+!myPy/log_busnet_20251109_2_10_time_taken1.txt
+!myPy/log_busnet_20251109_2_10_time_taken2.txt
+!myPy/log_busnet_20251109_2_10_time_taken3.txt
+!myPy/log_busnet_20251109_2_10_time_taken4.txt
+!myPy/log_busnet_20251109_2_50_time_taken5_7_10_nodelete.txt
+!myPy/log_busnet_20251109_2_50_time_taken5_12_15_nodelete.txt
+!myPy/log_busnet_20251109_2_50_time_taken5_17_20_nodelete.txt
+!myPy/log_busnet_20251109_2_50_time_taken6.txt

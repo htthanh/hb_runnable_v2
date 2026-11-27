@@ -1,0 +1,5 @@
+nohup: ignoring input
+start_time3: 2025-11-14 08:07:59 cpu_count() 50
+/home/htthanh/htthanhdata/src/busnet-master-original/myPy/geoPlotter.py:318: UserWarning: color argument of Icon should be one of: {'purple', 'lightred', 'lightblue', 'green', 'darkred', 'orange', 'darkpurple', 'black', 'white', 'lightgreen', 'darkblue', 'beige', 'gray', 'pink', 'blue', 'red', 'cadetblue', 'lightgray', 'darkgreen'}.
+  icon=folium.Icon(color='gold', icon='star', prefix='fa')).add_to(myMap)
+Time taken3: 31.750616788864136 seconds; 2025-11-14 08:08:31; cpu_count() 50 => TOPO ANLYSIS POSTPROCESSING
