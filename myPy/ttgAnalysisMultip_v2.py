@@ -218,6 +218,103 @@ def calcShortestPathsSubset_v3(gttTransit, stopFrList, allStops, timeWindow, dfN
         pickle.dump(shortestPaths, f)
 
 # ======================================================================================================================
+# htt-P1-begin (2026-11-27)
+# P1 = calcShortestPathsSubset_v3 + bo quet pandas toan bang trong vong lap trong cung.
+# Khac v3 DUY NHAT o cach lay dfStopToNds:
+#   v3 : loc toan bo dfNdDetails (~1,58 trieu dong) voi 4 dieu kien, cho MOI (stopFr, stopTo, nodeFr)
+#   P1 : loc truoc 2 dieu kien khong phu thuoc stopTo/timeFr (arr, time <= timeWindow[1]) va nhom theo
+#        StationId MOT lan/process; trong vong lap chi loc them time >= timeFr + maxWalkTime tren nhom nho.
+# Vi sao output giong het v3:
+#   - phep & giao hoan => cung tap dong;
+#   - groupby giu thu tu dong goc trong moi nhom, boolean mask giu thu tu => DataFrame dua vao sort_values
+#     giong v3 ca ve dong lan thu tu => ket qua sort (ke ca thu tu cac node hoa thoi gian, quicksort khong
+#     stable) giong het => nodeToList giong het => cung loi goi igraph, cung so loi goi, cung `break`.
+# Them bo dem nSpCalls (so loi goi igraph) chi de in log, khong anh huong output pickle.
+def calcShortestPathsSubset_v3p(gttTransit, stopFrList, allStops, timeWindow, dfNdDetails,
+                                stopPairsDist, procNumber, gttShortestPathsFolder):
+    # defines dfNdDetails columns
+    dfNdDetails_stnID = const.dfNdDetailsCols.StationId.name
+    dfNdDetails_time = const.dfNdDetailsCols.time.name
+    dfNdDetails_arrDep = const.dfNdDetailsCols.arrOrDep.name
+    dfNdDetails_arr = const.dfNdDetailsCols.arr.name
+    dfNdDetails_dep = const.dfNdDetailsCols.dep.name
+    dfNdDetails_ndID = const.dfNdDetailsCols.gttNdID.name
+
+    # P1: loc + nhom mot lan cho moi process
+    starttimeIdx = time.perf_counter()
+    dfArr = dfNdDetails.loc[(dfNdDetails[dfNdDetails_arrDep] == dfNdDetails_arr) &
+                            (dfNdDetails[dfNdDetails_time] <= timeWindow[1])]
+    arrByStop = {stn: grp for stn, grp in dfArr.groupby(dfNdDetails_stnID, sort=False)}
+    dfArrEmpty = dfArr.iloc[0:0]
+    print('process %d - P1 arrByStop built: %d stops, %d arr nodes - took %.4g secs' %
+          (procNumber, len(arrByStop), len(dfArr), time.perf_counter() - starttimeIdx), flush=True)
+
+    shortestPaths = []
+    countStopFr = 0
+    nSpCalls = 0
+    starttime = time.perf_counter()
+    for stopFr in stopFrList:
+        countStopTo = 0
+
+        dfStopFrNds = dfNdDetails.loc[(dfNdDetails[dfNdDetails_stnID] == stopFr) &
+                                      (dfNdDetails[dfNdDetails_time] >= timeWindow[0]) &
+                                      (dfNdDetails[dfNdDetails_time] <= timeWindow[1]) &
+                                      (dfNdDetails[dfNdDetails_arrDep] == dfNdDetails_dep)]
+        nodesFrNP = getMinTimeNodeEachDirRoute(dfStopFrNds)
+
+        if nodesFrNP.size == 0:
+            print('WARNING: process %d - stopFr %d has no nodes' % (procNumber, stopFr))
+            continue
+
+        for stopTo in allStops:
+            if stopFr == stopTo: continue
+
+            dist = stopPairsDist['%d_%d' % (stopFr, stopTo)]
+            if dist <= const.maxWalkDist:
+                walkTime = int(dist / const.walkSpeed + .5)  # in seconds
+                shortestPaths.append([stopFr, stopTo, timeWindow[0], timeWindow[0] + walkTime, [], -1])
+                continue
+
+            dfStopToArr = arrByStop.get(stopTo, dfArrEmpty)  # P1
+            for row in nodesFrNP:
+                nodeFr = row[0]
+                timeFr = row[1]
+                # P1: thay cho dfNdDetails.loc[4 dieu kien] cua v3
+                dfStopToNds = dfStopToArr.loc[dfStopToArr[dfNdDetails_time] >= timeFr + const.maxWalkTime]
+                dfStopToNds = dfStopToNds.sort_values(by = [dfNdDetails_time])
+                nodeToList = dfStopToNds[dfNdDetails_ndID].values.tolist()
+
+                pathsFound = igraph.GraphBase.get_shortest_paths(gttTransit, v=nodeFr, to=nodeToList,
+                                                                    weights=const.GttEdgeAttribs.transfer.name)
+                nSpCalls += 1
+                pathLen = [len(a) for a in pathsFound]
+                firstValidPathLen = next((x for x in pathLen if x>1), -1)
+                if firstValidPathLen > -1:
+                    iPath = pathLen.index(firstValidPathLen)
+                    path = pathsFound[iPath]
+                    nodeTo = path[-1]
+                    timeTo = int(gttTransit.vs[nodeTo]['ndDesc'].split('_')[3])
+                    shortestPaths.append([stopFr, stopTo, timeFr, timeTo, path, -2])
+                    break
+
+            countStopTo += 1
+            if countStopTo % 2000 == 0:
+                duration = time.perf_counter() - starttime
+                print('\tprocess %d- %d of %d stopTo finished - elapsed time %.4g secs cpu_count() %d %s' %
+                      (procNumber, countStopTo, len(allStops), duration, multiprocessing.cpu_count(), utils.printCurrentTime()))
+                utils.printMemoryUsage(procNumber)
+
+        countStopFr += 1
+        duration = time.perf_counter() - starttime
+        print('process %d - %d stopFr completed (of %d stopFr to %d stopTo) - elapsed time %.4g mins (%.4g secs) nSpCalls %d cpu_count() %d %s' %
+              (procNumber, countStopFr, len(stopFrList), len(allStops), duration / 60, duration, nSpCalls, multiprocessing.cpu_count(), utils.printCurrentTime()))
+
+    print('process %d - P1 finished - nSpCalls %d' % (procNumber, nSpCalls), flush=True)
+    with open('%s/shortestPaths_%d.pkl' % (gttShortestPathsFolder, procNumber), 'wb') as f:
+        pickle.dump(shortestPaths, f)
+# htt-P1-end
+
+# ======================================================================================================================
 def calcShortestPathsSubset_v2(gttTransit, stopFrList, allStops, timeWindow, dfNdDetails,
                             stopPairsDist, procNumber, gttShortestPathsFolder):
     # defines dfNdDetails columns
@@ -392,7 +489,9 @@ def calcShortestPathsMultip(gttTransit, dfNdDetails, dfAllTransfers, timeWindow,
     processes = []
     for i in range(nProcesses):
         stopFrList = stopParts[i]
-        p = multiprocessing.Process(target = calcShortestPathsSubset_v3,
+        # htt-P1: chon bien the qua const.SP_VARIANT ('v3' = P0 goc, 'v3p' = P1)
+        spFunc = {'v3': calcShortestPathsSubset_v3, 'v3p': calcShortestPathsSubset_v3p}[const.SP_VARIANT]
+        p = multiprocessing.Process(target = spFunc,
                                     args=(gttTransit, stopFrList, allStops, timeWindow, dfNdDetails,
                                           stopPairsDist, i, gttShortestPathsFolder))
         processes.append(p)
@@ -440,6 +539,9 @@ def main_ttgAnalysisMultip_v2():
         startHrStr = '0%d00' % startHr if startHr < 10 else '%d00' % startHr
         endHrStr = '0%d00' % endHr if endHr < 10 else '%d00' % endHr
         gttShortestPathsFolder = '%s/gttShortestPaths/%s_%s' % (const.trashSite, startHrStr, endHrStr)
+        if const.SP_VARIANT != 'v3':  # htt-P1: bien the moi ghi thu muc rieng, khong ghi de output P0
+            gttShortestPathsFolder = '%s/gttShortestPaths_%s/%s_%s' % (const.trashSite, const.SP_VARIANT,
+                                                                        startHrStr, endHrStr)
         os.makedirs(gttShortestPathsFolder, exist_ok=True)
 
         calcShortestPathsMultip(gttTransit, dfNdDetails, dfAllTransfers, timeWindow, nProcesses, stopPairsDist,

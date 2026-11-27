@@ -84,6 +84,9 @@ os.makedirs(ttgAnalysisFolder, exist_ok=True)
 os.makedirs(trashSite, exist_ok=True)
 
 NPROCESSES=25
+# htt-P1: bien the shortest path cua buoc 5: 'v3' = P0 (goc, calcShortestPathsSubset_v3),
+#         'v3p' = P1 (bo quet pandas toan bang). Output cua bien the khac 'v3' ghi vao trashSite/gttShortestPaths_<variant>/
+SP_VARIANT = 'v3'
 # htt-debug-end
 
 class RouteInfoCols(Enum):
