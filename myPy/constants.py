@@ -50,7 +50,11 @@ dfaultDwellTime = 6 # seconds - the default period from when a bus arrives at a 
 import os
 # PROJECT_ROOT = '/home/htthanh/Downloads/server/busnet-master-original' # local-ubuntu
 # PROJECT_ROOT = '/media/htthanh/to-server-20250723/busnet-master-original' # slurm-ubuntu
-PROJECT_ROOT = '/home/htthanh/htthanhdata/src/busnet-master-original' # vmware-ubuntu
+# PROJECT_ROOT = '/home/htthanh/htthanhdata/src/busnet-master-original' # vmware-ubuntu
+# htt-isolation (2026-11-27): PROJECT_ROOT = thu muc cha cua myPy/ chua chinh file nay, de moi ban code
+# (hb_busnet_runnable, hb_busnet_runnable_v2) chi doc/ghi trong folder cua chinh no. Tren server, ban golden
+# dat tai .../busnet-master-original/myPy/ nen gia tri van giong dong hardcode o tren.
+PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 dataFolder = os.path.join(PROJECT_ROOT, 'data')
 stopSeqFolder = os.path.join(PROJECT_ROOT, 'data/stopSeq')
 routeInfoFolder = os.path.join(PROJECT_ROOT, 'data/routeInfo')

@@ -1,6 +1,7 @@
 import os 
 
-base_folder = "/home/htthanh/Downloads/server/busnet-master-original/myPy/log_20250923_run_16"
+# base_folder = "/home/htthanh/Downloads/server/busnet-master-original/myPy/log_20250923_run_16"
+base_folder = os.path.join(os.path.dirname(os.path.abspath(__file__)), "log_20250923_run_16")  # htt-isolation
 # get all files in the base_folder
 files = os.listdir(base_folder)
 # get all files in the base_folder that are not in the subfolders

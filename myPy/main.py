@@ -23,7 +23,7 @@ import logging
 # ======================================================================================================================
 if __name__=='__main__':
     logging.basicConfig(
-        filename="my_script.log",
+        filename=os.path.join(os.path.dirname(os.path.abspath(__file__)), "my_script.log"),  # htt-isolation: khong phu thuoc cwd
         level=logging.INFO,
         format="%(asctime)s [%(levelname)s] %(message)s"
     )
