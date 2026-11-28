@@ -1,4 +1,4 @@
-"""T1 - chay MOT bien the buoc 5 (v3 = P0 goc, v3p = P1) tren mot mau (stopFr x stopTo) co dinh.
+"""T1 - chay MOT bien the buoc 5 (v3 = P0 goc, v3p = P1, v4 = P2) tren mot mau (stopFr x stopTo) co dinh.
 
 Goi TRUC TIEP ham goc trong ttgAnalysisMultip_v2 (procNumber=0, 1 process), khong qua main.py
 va khong qua partition() (random.shuffle khong seed).
@@ -23,7 +23,7 @@ def main():
     ap.add_argument('--pickles', default=C.DEFAULT_PICKLES,
                     help='thu muc chua GttTransit_v2.pkl, dfNdDetails_v2.pkl, dfAllTransfers.pkl, stopPairsDist.pkl '
                          '(mac dinh: myPy/outputs/pickles cua runnable_v2; phai nam trong runnable_v2)')
-    ap.add_argument('--variant', required=True, choices=['v3', 'v3p'])
+    ap.add_argument('--variant', required=True, choices=['v3', 'v3p', 'v4'])
     ap.add_argument('--window', default='7,10', help="vd '7,10'")
     ap.add_argument('--n-stopfr', type=int, default=3)
     ap.add_argument('--n-stopto', type=int, default=200, help='<=0: toan bo allStops')
@@ -67,7 +67,8 @@ def main():
     print('[T1] variant=%s window=%s stopFr=%s |stopTo|=%d' %
           (a.variant, window, stopFrList, len(stopToList)), flush=True)
 
-    func = {'v3': C.ttg.calcShortestPathsSubset_v3, 'v3p': C.ttg.calcShortestPathsSubset_v3p}[a.variant]
+    func = {'v3': C.ttg.calcShortestPathsSubset_v3, 'v3p': C.ttg.calcShortestPathsSubset_v3p,
+            'v4': C.ttg.calcShortestPathsSubset_v4}[a.variant]
     t0 = time.perf_counter()
     func(gtt, stopFrList, stopToList, window, dfNd, spd, 0, a.out)
     elapsed = time.perf_counter() - t0

@@ -89,7 +89,7 @@ os.makedirs(trashSite, exist_ok=True)
 
 NPROCESSES=25
 # htt-P1: bien the shortest path cua buoc 5: 'v3' = P0 (goc, calcShortestPathsSubset_v3),
-#         'v3p' = P1 (bo quet pandas toan bang). Output cua bien the khac 'v3' ghi vao trashSite/gttShortestPaths_<variant>/
+#         'v3p' = P1 (bo quet pandas toan bang), 'v4' = P2 (P1 + dao vong 2/3 + gop loi goi igraph). Output cua bien the khac 'v3' ghi vao trashSite/gttShortestPaths_<variant>/
 SP_VARIANT = 'v3'
 # htt-debug-end
 

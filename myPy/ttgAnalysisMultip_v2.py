@@ -315,6 +315,132 @@ def calcShortestPathsSubset_v3p(gttTransit, stopFrList, allStops, timeWindow, df
 # htt-P1-end
 
 # ======================================================================================================================
+# htt-P2-begin (2026-11-28)
+# P2 = P1 + dao vong 2/3 (stopTo <-> nodeFr) + GOP loi goi igraph: voi moi candidate nodeFr chi goi
+# get_shortest_paths MOT lan cho tat ca stopTo chua giai, roi cat ket qua theo offset cua tung stopTo.
+#   v3/P1: so loi goi ~ |stopTo| x (so candidate thu truoc khi gap path) cho moi stopFr (~4.500 voi T1c)
+#   P2   : so loi goi <= |nodesFrNP| cho moi stopFr (vai loi goi)
+# Output giong het v3 DUA TREN 3 dieu kien:
+#   (1) [GIA THUYET, da kiem bang T0 tren mau 3 stopFr x 50 stopTo, 0 sai khac] voi igraph, path tra ve cho
+#       mot dich X khong phu thuoc tap `to` => pathsFound[off:off+n] cua loi goi gop == pathsFound cua v3
+#       khi goi rieng voi to = nodeToList(stopTo).
+#   (2) nodeToList cua tung (stopTo, nodeFr) dung dung cach cua P1 (da kiem bang T1b/T1c) => cung danh sach,
+#       cung thu tu (ke ca node hoa thoi gian).
+#   (3) quy tac chon cua v3 ap cho tung stopTo: duyet nodeFr theo thu tu nodesFrNP, lay nodeFr DAU TIEN co
+#       path hop le (len > 1), trong pathsFound lay path hop le DAU TIEN. P2 loai stopTo khoi `unresolved`
+#       ngay khi gap path => moi stopTo duoc giai o dung nodeFr ma v3 dung `break`.
+# Thu tu output: ghi ket qua theo thu tu allStops cho moi stopFr (ke ca cap di bo) => list shortestPaths
+# giong v3 ca ve thu tu record.
+# stopTo co nodeToList rong: v3 goi igraph voi to=[] va khong ghi record neu ket qua khong co path len > 1.
+#   P2 dong gop 0 dich vao loi goi gop => khong ghi record. Hai cach tuong duong vi igraph 0.11.9 tra [] cho
+#   to=[] (da kiem truc tiep tren macOS, env busnet; T0 tren server chua gap truong hop nay).
+# Da kiem tren do thi tong hop (20 seed, 3.133 record, trong so 0/1 nhieu hoa, co stop khong co node arr):
+#   output v4 == v3 == v3p tung phan tu, ke ca thu tu. CHUA chay tren du lieu that -> can T1-P2 voi golden.
+# Rui ro bo nho: moi loi goi gop tra ve path cho moi dich (T0: toi 162.795 dich, maxRSS ~11,7 GB/process).
+# Them bo dem nSpCalls va maxTargets chi de in log, khong anh huong output pickle.
+def calcShortestPathsSubset_v4(gttTransit, stopFrList, allStops, timeWindow, dfNdDetails,
+                               stopPairsDist, procNumber, gttShortestPathsFolder):
+    # defines dfNdDetails columns
+    dfNdDetails_stnID = const.dfNdDetailsCols.StationId.name
+    dfNdDetails_time = const.dfNdDetailsCols.time.name
+    dfNdDetails_arrDep = const.dfNdDetailsCols.arrOrDep.name
+    dfNdDetails_arr = const.dfNdDetailsCols.arr.name
+    dfNdDetails_dep = const.dfNdDetailsCols.dep.name
+    dfNdDetails_ndID = const.dfNdDetailsCols.gttNdID.name
+
+    # nhu P1: loc + nhom mot lan cho moi process
+    starttimeIdx = time.perf_counter()
+    dfArr = dfNdDetails.loc[(dfNdDetails[dfNdDetails_arrDep] == dfNdDetails_arr) &
+                            (dfNdDetails[dfNdDetails_time] <= timeWindow[1])]
+    arrByStop = {stn: grp for stn, grp in dfArr.groupby(dfNdDetails_stnID, sort=False)}
+    dfArrEmpty = dfArr.iloc[0:0]
+    print('process %d - P2 arrByStop built: %d stops, %d arr nodes - took %.4g secs' %
+          (procNumber, len(arrByStop), len(dfArr), time.perf_counter() - starttimeIdx), flush=True)
+
+    shortestPaths = []
+    countStopFr = 0
+    nSpCalls = 0
+    maxTargets = 0
+    starttime = time.perf_counter()
+    for stopFr in stopFrList:
+        dfStopFrNds = dfNdDetails.loc[(dfNdDetails[dfNdDetails_stnID] == stopFr) &
+                                      (dfNdDetails[dfNdDetails_time] >= timeWindow[0]) &
+                                      (dfNdDetails[dfNdDetails_time] <= timeWindow[1]) &
+                                      (dfNdDetails[dfNdDetails_arrDep] == dfNdDetails_dep)]
+        nodesFrNP = getMinTimeNodeEachDirRoute(dfStopFrNds)
+
+        if nodesFrNP.size == 0:
+            print('WARNING: process %d - stopFr %d has no nodes' % (procNumber, stopFr))
+            continue
+
+        # buoc 1: cap di bo duoc ghi ngay; cac stopTo con lai vao unresolved (giu thu tu allStops)
+        recByStopTo = {}
+        unresolved = []
+        for stopTo in allStops:
+            if stopFr == stopTo: continue
+            dist = stopPairsDist['%d_%d' % (stopFr, stopTo)]
+            if dist <= const.maxWalkDist:
+                walkTime = int(dist / const.walkSpeed + .5)  # in seconds
+                recByStopTo[stopTo] = [stopFr, stopTo, timeWindow[0], timeWindow[0] + walkTime, [], -1]
+            else:
+                unresolved.append(stopTo)
+
+        # buoc 2: duyet candidate nodeFr theo thu tu nodesFrNP (nhu vong trong cua v3), MOT loi goi igraph moi nodeFr
+        for row in nodesFrNP:
+            if not unresolved: break
+            nodeFr = row[0]
+            timeFr = row[1]
+
+            offsets = []
+            allTo = []
+            for stopTo in unresolved:
+                # dung nodeToList dung cach cua P1
+                dfStopToArr = arrByStop.get(stopTo, dfArrEmpty)
+                dfStopToNds = dfStopToArr.loc[dfStopToArr[dfNdDetails_time] >= timeFr + const.maxWalkTime]
+                dfStopToNds = dfStopToNds.sort_values(by = [dfNdDetails_time])
+                nodeToList = dfStopToNds[dfNdDetails_ndID].values.tolist()
+                offsets.append((len(allTo), len(allTo) + len(nodeToList)))
+                allTo.extend(nodeToList)
+
+            if not allTo: continue  # khong stopTo nao co dich voi nodeFr nay -> v3 cung khong ghi record
+
+            pathsFound = igraph.GraphBase.get_shortest_paths(gttTransit, v=nodeFr, to=allTo,
+                                                                weights=const.GttEdgeAttribs.transfer.name)
+            nSpCalls += 1
+            maxTargets = max(maxTargets, len(allTo))
+
+            stillUnresolved = []
+            for stopTo, (s, e) in zip(unresolved, offsets):
+                # quy tac cua v3 tren lat cat cua stopTo: path dau tien co len > 1
+                path = next((p for p in pathsFound[s:e] if len(p) > 1), None)
+                if path is None:
+                    stillUnresolved.append(stopTo)
+                    continue
+                nodeTo = path[-1]
+                timeTo = int(gttTransit.vs[nodeTo]['ndDesc'].split('_')[3])
+                recByStopTo[stopTo] = [stopFr, stopTo, timeFr, timeTo, path, -2]
+            unresolved = stillUnresolved
+            del pathsFound
+
+        # buoc 3: ghi theo thu tu allStops => cung thu tu record voi v3
+        for stopTo in allStops:
+            rec = recByStopTo.get(stopTo)
+            if rec is not None:
+                shortestPaths.append(rec)
+
+        countStopFr += 1
+        duration = time.perf_counter() - starttime
+        print('process %d - %d stopFr completed (of %d stopFr to %d stopTo) - elapsed time %.4g mins (%.4g secs) nSpCalls %d maxTargets %d unresolved %d cpu_count() %d %s' %
+              (procNumber, countStopFr, len(stopFrList), len(allStops), duration / 60, duration, nSpCalls, maxTargets,
+               len(unresolved), multiprocessing.cpu_count(), utils.printCurrentTime()), flush=True)
+        utils.printMemoryUsage(procNumber)
+
+    print('process %d - P2 finished - nSpCalls %d maxTargets %d' % (procNumber, nSpCalls, maxTargets), flush=True)
+    with open('%s/shortestPaths_%d.pkl' % (gttShortestPathsFolder, procNumber), 'wb') as f:
+        pickle.dump(shortestPaths, f)
+# htt-P2-end
+
+# ======================================================================================================================
 def calcShortestPathsSubset_v2(gttTransit, stopFrList, allStops, timeWindow, dfNdDetails,
                             stopPairsDist, procNumber, gttShortestPathsFolder):
     # defines dfNdDetails columns
@@ -489,8 +615,9 @@ def calcShortestPathsMultip(gttTransit, dfNdDetails, dfAllTransfers, timeWindow,
     processes = []
     for i in range(nProcesses):
         stopFrList = stopParts[i]
-        # htt-P1: chon bien the qua const.SP_VARIANT ('v3' = P0 goc, 'v3p' = P1)
-        spFunc = {'v3': calcShortestPathsSubset_v3, 'v3p': calcShortestPathsSubset_v3p}[const.SP_VARIANT]
+        # htt-P1/P2: chon bien the qua const.SP_VARIANT ('v3' = P0 goc, 'v3p' = P1, 'v4' = P2)
+        spFunc = {'v3': calcShortestPathsSubset_v3, 'v3p': calcShortestPathsSubset_v3p,
+                  'v4': calcShortestPathsSubset_v4}[const.SP_VARIANT]
         p = multiprocessing.Process(target = spFunc,
                                     args=(gttTransit, stopFrList, allStops, timeWindow, dfNdDetails,
                                           stopPairsDist, i, gttShortestPathsFolder))

@@ -1,11 +1,11 @@
-# T0 / T1 — kiểm tra P1 (`calcShortestPathsSubset_v3p`) và giả thuyết của P2
+# T0 / T1 / T1-P2 — kiểm tra P1 (`calcShortestPathsSubset_v3p`), giả thuyết của P2 và P2 (`calcShortestPathsSubset_v4`)
 
 Mọi script chạy từ thư mục `myPy/tests/` (chúng tự thêm `myPy/` vào `sys.path`). Không script nào sửa code gốc.
 
 | File | Việc |
 |---|---|
 | `common.py` | load 4 pickle + `addTransferEdgesAllStops` + `allStops` (đúng như `calcShortestPathsMultip`), lấy mẫu tái lập (sorted + `random.Random(seed)`) |
-| `t1_run.py` | chạy **một** biến thể (`v3` = P0 gốc, `v3p` = P1) trên mẫu (stopFr × stopTo), 1 process, gọi thẳng hàm gốc |
+| `t1_run.py` | chạy **một** biến thể (`v3` = P0 gốc, `v3p` = P1, `v4` = P2) trên mẫu (stopFr × stopTo), 1 process, gọi thẳng hàm gốc |
 | `t1_compare.py` | so output theo khoá `(stopFr, stopTo)` với golden (thư mục 50 pickle) hoặc với một pickle khác |
 | `t0_target_set.py` | kiểm tra path của igraph không phụ thuộc tập `to` + so quyết định v3 vs P2 mô phỏng |
 
@@ -17,7 +17,7 @@ Mọi script chạy từ thư mục `myPy/tests/` (chúng tự thêm `myPy/` và
 ```bash
 GOLD=/home/htthanh/htthanhdata/src/busnet-master-original      # golden 580h (chỉ đọc)
 V2=<thư mục hb_runnable_v2 trên server>
-REF=$GOLD/myPy/trashSite/gttShortestPaths/0700_1000
+REF=$GOLD/myPy/trashSite/gttShortestPaths/0700_1000_htt_2_50   # 50 pickle của lần chạy 580h (thư mục 0700_1000 chỉ có 25 file, không dùng)
 OUT=$V2/myPy/tests/out
 mkdir -p $V2/myPy/outputs/pickles $OUT
 for f in GttTransit_v2 dfNdDetails_v2 dfAllTransfers stopPairsDist; do cp -p $GOLD/myPy/outputs/pickles/$f.pkl $V2/myPy/outputs/pickles/; done
@@ -62,3 +62,20 @@ python t0_target_set.py --window 7,10 --n-stopfr 3 --n-stopto 50 --seed 2026 --m
 ```
 Exit code: `0` khớp 100%, `1` có sai khác (dừng P2), `2` hết giờ nhưng chưa thấy sai khác. Report đầy đủ ở `$OUT/t0/t0_report.json`
 (gồm `targets_b_max` / `max_rss_mib` để quyết định có cần P2b hay không, và `empty_to_nonempty_result` để kiểm hành vi igraph khi `to=[]`).
+
+## Bước 4 — T1-P2: P2 (`v4`) so với golden (sau khi T0 khớp 100%)
+P2 gộp lời gọi igraph: mỗi candidate `nodeFr` chỉ gọi `get_shortest_paths` **một lần** cho mọi stopTo chưa giải. Kiểm như T1, trên cùng mẫu với T1a/T1b để so thời gian với v3 và v3p.
+```bash
+# T1-P2a: cùng mẫu 3 x 200 của T1a; so với golden và với v3 của T1a
+python t1_run.py --variant v4 --sample $OUT/t1a_v3/sample.json --out $OUT/t1p2a_v4 | tee $OUT/t1p2a_v4.log
+python t1_compare.py --test $OUT/t1p2a_v4/shortestPaths_0.pkl --ref $REF --sample $OUT/t1a_v3/sample.json
+python t1_compare.py --test $OUT/t1p2a_v4/shortestPaths_0.pkl --ref $OUT/t1a_v3/shortestPaths_0.pkl --sample $OUT/t1a_v3/sample.json
+grep "P2 finished" $OUT/t1p2a_v4.log           # nSpCalls, maxTargets
+
+# T1-P2c: cùng mẫu 10 x 4350 của T1c (so thời gian với v3p 3.539 s/stopFr); so với golden
+python t1_run.py --variant v4 --sample $OUT/t1c_v3p/sample.json --out $OUT/t1p2c_v4 | tee $OUT/t1p2c_v4.log
+python t1_compare.py --test $OUT/t1p2c_v4/shortestPaths_0.pkl --ref $REF --sample $OUT/t1c_v3p/sample.json
+```
+Lưu ý:
+- P2 chỉ tương đương v3 khi (1) giả thuyết T0 đúng trên toàn dữ liệu và (2) igraph trả `[]` khi `to=[]` (T0 chưa gặp trường hợp này). T1-P2 với golden là phép kiểm cả hai điều kiện.
+- Bộ nhớ: mỗi lời gọi gộp trả về path cho tới khoảng 160 nghìn đích (T0: maxRSS ~11,7 GB/process). Theo dõi `max_rss_mib` trong `meta.json` trước khi chạy P2 với nhiều process qua `main.py` (`SP_VARIANT = 'v4'`).
