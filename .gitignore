@@ -19,3 +19,8 @@ myPy/log_busnet_*.txt
 !myPy/log_busnet_20251109_2_50_time_taken5_12_15_nodelete.txt
 !myPy/log_busnet_20251109_2_50_time_taken5_17_20_nodelete.txt
 !myPy/log_busnet_20251109_2_50_time_taken6.txt
+
+# Inputs copied into the repo (large, not versioned) and test outputs (EXP-HB-003/004)
+myPy/outputs/pickles/
+myPy/tests/out/
+myPy/tests_t2/out/
